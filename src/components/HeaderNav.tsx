@@ -46,18 +46,19 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({
     <header className="sticky top-0 z-40 bg-[var(--nav-bg)] border-b border-[var(--nav-border)] shadow-[var(--shadow-nav)]">
       {/* Top Header Row (56px) */}
       <div className="max-w-[1400px] mx-auto px-6 h-[56px] flex items-center justify-between gap-4">
-        {/* Brand & Logo */}
+        {/* Brand & Product Content */}
         <div className="flex items-center gap-3 shrink-0">
-          <div className="w-9 h-9 rounded-lg bg-[var(--color-primary)] text-white flex items-center justify-center font-bold text-lg shadow-sm">
-            <Briefcase className="w-5 h-5 text-[var(--color-accent)]" />
+          <div className="w-8 h-8 rounded-lg bg-[var(--color-primary)] text-white flex items-center justify-center shadow-sm">
+            <Briefcase className="w-4 h-4 text-[var(--color-accent)]" />
           </div>
-          <div>
-            <h1 className="font-heading font-bold text-lg text-[var(--color-primary)] leading-tight tracking-tight">
-              Contractor Operations & Profitability Management System
+          <div className="flex flex-col sm:flex-row sm:items-baseline sm:gap-2.5">
+            <h1 className="font-heading font-semibold text-base text-[var(--color-primary)] tracking-tight leading-tight">
+              Theseus Workshop
             </h1>
-            <p className="text-[11px] text-[var(--color-muted)] font-medium">
-              SaaS Job Costing Engine & Profit Analytics
-            </p>
+            <span className="text-[var(--color-muted)] text-[12px] select-none hidden sm:inline">/</span>
+            <span className="text-[12px] font-medium text-[var(--color-muted)] tracking-normal">
+              Contractor Operations & Profitability Management System
+            </span>
           </div>
         </div>
 

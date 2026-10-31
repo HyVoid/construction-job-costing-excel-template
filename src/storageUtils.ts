@@ -37,7 +37,7 @@ export function exportBackupJSON(data: AppData) {
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `Job_Costing_Backup_${dateStr}.json`;
+  a.download = `Contractor-Operations-Profitability-System-backup-${dateStr}.json`;
   a.click();
   URL.revokeObjectURL(url);
 }
