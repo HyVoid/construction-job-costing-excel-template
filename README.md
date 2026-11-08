@@ -6,260 +6,221 @@
 
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-green.svg)
-![Tool Type](https://img.shields.io/badge/Tool%20Type-Construction%20Job%20Costing%20%26%20Estimating-orange.svg)
+![Platform](https://img.shields.io/badge/Platform-Free%20Web%20App%20%2B%20Excel%20Download-green.svg)
+![Tool Type](https://img.shields.io/badge/Tool%20Type-Construction%20Job%20Costing%20%26%20Quote%20Builder-orange.svg)
 
-**An all-in-one Construction Job Costing Excel Template, Contractor Estimating Spreadsheet, and Lead-to-Profit CRM Calculator built for general contractors, subcontractors, and trade businesses. Track the complete contractor workflow from Sales Lead → Material & Labor Estimate → Approved Job Budget → Field Timesheets & Material Usage → Estimate-vs-Actual Variance → Net Profit Margin → Customer Lifetime Value (LTV).**
+<p><strong>An all-in-one Construction Job Costing Excel Template, Contractor Estimating Spreadsheet, and Small Business Lead-to-Profit CRM System built for general contractors, subcontractors, remodelers, and specialty trade businesses. Automatically track and calculate your complete contracting workflow: Sales Lead Pipeline &rarr; Material Takeoff &amp; Labor Cost Estimate &rarr; Approved Project Budget &rarr; Field Timesheets &amp; Material Usage Log &rarr; Budget-vs-Actual Cost Variance &rarr; Net Profit Margin &rarr; Customer Lifetime Value (LTV).</strong></p>
 
-**No signup. No installation. Free to test in your browser.**
+**Free Online Web Calculator (No Signup Required) + Paid Offline Excel System (One-Time Purchase, 30-Day Money-Back Guarantee).**
 
-Test the interactive web application for free in your browser, or download the unlocked Excel spreadsheet template for full offline customization—backed by a 30-day, no-questions-asked money-back guarantee.
+Test the interactive job costing calculator for free in your browser with zero installation, or download the fully unlocked, pre-programmed Microsoft Excel spreadsheet template to run your contracting business offline—backed by a **30-day, no-questions-asked 100% money-back guarantee**.
 
-> 🌐 **Try the Web App:** [Interactive Contractor Estimating & Job Costing Web Calculator (Live Demo)](https://hyvoid.github.io/construction-job-costing-excel-template/)  
-> 📥 **Get the Full Excel System:** [Download the Editable Construction Job Costing & Quote Builder Excel Template](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=contractor-operations-profitability)  
-> ⚙️ **Architecture & Math:** [Jump to The Business Logic & Job Costing Methodology](#the-business-logic--methodology)
-
+> 🌐 **Test the Free Online Calculator (Browser Demo):** [Launch Interactive Contractor Estimating & Job Costing Web App (Free Online Tool)](https://hyvoid.github.io/construction-job-costing-excel-template/)  
+> 📥 **Download the Full Offline Excel System:** [Get the Unlocked Construction Job Costing, Quote Builder & Profit Tracker Excel Template (Instant Download)](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=contractor-operations-profitability)  
+> ⚙️ **Learn the Profit & Pricing Math:** [Read The Contractor Business Logic, Markup vs. Margin & Job Costing Methodology](#the-business-logic--methodology)  
+> 🧰 **Explore More Business Templates:** [Browse Ready-to-Use Excel Operations & Financial Tools at Theseus Workshop](https://www.theseusworkshop.com)
 
 ---
 
-## The Connected Construction Operating Chain: From Lead to Job Costing
+## Who This Is For: Trade-Specific Estimating & Job Costing Scenarios
 
-Most construction spreadsheets only solve an isolated fragment of the business—leaving your **sales pipeline**, **estimating takeoff**, and **field job costing** trapped in disconnected files. 
+Most small-to-medium contractors lose money not because of bad craftsmanship, but because their estimating spreadsheets, field timesheets, and material receipts live in separate files. This **Contractor Estimating and Job Costing Spreadsheet** is built for hands-on builders and operations teams who need instant financial clarity without paying $200–$500/month for complex construction ERP software:
 
-This contractor workbook is engineered around a single, unbroken **relational operating chain** anchored by `Lead_ID` and `Job_ID`:
+* **General Contractors (GC) & Home Builders (`General Contractor Estimating & Budget vs. Actual Template`):** Manage multi-phase residential or commercial builds, lock in baseline contract budgets, and spot subcontractor or material cost overruns before final billing.
+* **Home Remodelers & Renovation Contractors (`Remodeling Cost Estimator & Project Profit Tracker`):** Price kitchen, bath, and whole-home renovations accurately by linking material unit databases (`Material_DB`) and hourly crew rates (`Labor_Rates`) directly to customer quotes.
+* **HVAC, Plumbing & Electrical Subcontractors (`MEP Trade Service & Project Costing Spreadsheet`):** Track high-volume service calls and installation jobs, compare quoted labor hours against actual field timesheets, and protect gross margins on parts and equipment.
+* **Roofing, Siding, Painting & Drywall Contractors (`Material Takeoff & Labor Hour Costing Calculator`):** Prevent material waste and labor creep from silently eating your profit by logging daily material consumption (`Material_Usage`) against specific `Job_ID` records.
+* **Landscaping, Hardscaping & Concrete Contractors (`Outdoor Construction Quote Builder & Crew Time Tracker`):** Calculate overhead allocation, equipment burden, and target profit margins in seconds during peak busy seasons.
+* **Handyman Businesses & Solo Owner-Operators (`Simple Contractor CRM, Quote Generator & Bookkeeping Prep Tool`):** Stop quoting from gut feelings. Use a beginner-friendly, copy-and-paste system to turn client inquiries into professional tax-inclusive quotes in under 1 minute.
+* **Construction Estimators & Field Project Managers (`Work-in-Progress [WIP] Cost Variance & Margin Dashboard`):** Bridge the gap between the sales desk and the job site so estimators see real field performance and project managers know the exact budget ceiling.
+
+*Note: This tool is a lightweight operational and financial decision-support system—not a bloated accounting ERP, payroll processor, or enterprise procurement suite.*
+
+---
+
+## What It Helps You Track: From Contractor Pain Points to Automated Excel Solutions
+
+Most construction templates only solve a single isolated task (like a blank invoice or a basic material list). This workbook connects the **entire contractor operating chain** from initial client inquiry to final net profit:
 
 ```text
-Sales Lead (CRM Pipeline)
+Sales Lead (CRM)
   ↓
-Project Estimate (Material Takeoff + Labor + Overhead + Margin)
+Cost Estimate & Quote Builder
   ↓
-Approved Contract (Baseline Budget Locked via Job_ID)
+Approved Job Baseline (Job_ID)
   ↓
-Field Execution (Timesheet Labor Hours & Material Consumption)
+Field Labor Timesheets & Material Usage
   ↓
-Job Costing Engine (Estimate vs. Actual Variance & Overrun Alerts)
+Automated Job Costing Engine (Budget vs. Actual)
   ↓
-Real-Time Profit Dashboard (Gross Profit $ & Net Margin %)
+Net Profit Margin & Overrun Alerts
   ↓
-Customer LTV History (Repeat Client Profitability Ranking)
-
+Customer Lifetime Value (LTV) History
 ```
 
-### One Contractor Workbook. Eight Integrated Operational Modules.
+### Structured Pain-Point-to-Solution Mapping (`What It Helps You Track`)
 
-| Workflow Stage | Excel / Web Module | Core Construction & Financial Metrics Tracked |
-| --- | --- | --- |
-| **1. Sales Pipeline (CRM)** | `Lead_Tracker` | Customer inquiries, bid opportunities, estimated budgets, pipeline aging, estimator ownership, projected gross profit. |
-| **2. Estimating & Bidding** | `Quote_Builder` | Material takeoff quantities, labor hours, direct COGS, overhead allocation, **target margin vs. markup**, tax-inclusive bid price. |
-| **3. Contract Baseline** | `Approved_Jobs` | Awarded construction contracts, unique `Job_ID` generation, contracted value, schedule dates, project manager assignment. |
-| **4. Field Tracking** | `Labor_Log` + `Material_Usage` | Daily/weekly field crew timesheet hours, craft labor rates, jobsite material consumption linked directly to `Job_ID`. |
-| **5. Job Costing & WIP** | `Job_Cost_Engine` | Actual material COGS, actual burdened labor cost, applied overhead, total job cost, **Estimate-vs-Actual budget variance**. |
-| **6. Margin & Overruns** | `Profit_Dashboard` | Realized gross profit ($), net profit margin (%), **automated cost-overrun alerts**, company-wide portfolio P&L. |
-| **7. Client Intelligence** | `Customer_History` | Multi-project client history, cumulative contract revenue, lifetime profit contribution, average margin %, client tier rating. |
-
----
-
-## What It Helps You Track & Decide: Contractor Pain-Point to Solution Mapping
-
-Instead of waiting until tax season to discover whether your crew made or lost money on a build, this **contractor profitability tracker** resolves seven critical operational blind spots:
-
-| Target Tracking Metric / Pain Point | The Common Contractor Blind Spot | How This Job Costing System Solves & Tracks It |
-| --- | --- | --- |
-| **Sales Lead Prioritization & Pipeline Value** | Chasing every bid request equally without knowing which opportunities yield the highest profit contribution. | `Lead_Tracker` calculates pipeline duration and **projected gross profit** based on your target margin before you invest estimating hours. |
-| **Accurate Bid Pricing (Margin vs. Markup)** | Underpricing jobs by confusing *Markup %* with *Gross Margin %*, or forgetting to allocate shop overhead and sales tax. | `Quote_Builder` pulls standard costs from `Material_DB` and `Labor_Rates`, applies overhead, and **back-calculates the exact tax-inclusive quote** needed to hit your target margin. |
-| **Preserving the Original Estimate Baseline** | Overwriting the initial estimate once construction starts, making it impossible to see where the budget went wrong. | `Approved_Jobs` locks the awarded quote's estimated cost and assigns a permanent `Job_ID` as an immutable **budget variance baseline**. |
-| **Converting Field Timesheets & Materials into COGS** | Tracking crew hours on paper timesheets and material receipts in shoeboxes without linking them to specific project budgets. | `Labor_Log` and `Material_Usage` bind every field hour and material unit to `Job_ID`, automatically multiplying by standard rates in the costing engine. |
-| **Real-Time Cost Overrun & Budget Variance Alerts** | Discovering labor or material cost overruns only after the job is 100% finished and the final invoice is paid. | `Job_Cost_Engine` continuously compares **Actual Cost vs. Estimated Cost**, triggering visual **Overrun Alerts** the moment variance breaches your threshold. |
-| **Estimated Margin vs. Realized Net Margin** | Assuming a job quoted at a 30% margin actually delivered 30%, ignoring unbilled scope creep and extra crew hours. | Explicitly separates **Initial Projected Margin** from **Actual Realized Margin** so project managers see margin erosion in real time. |
-| **Customer Lifetime Profitability (Client LTV)** | Treating high-revenue General Contractors or property managers as "VIP clients" even when their projects consistently lose money. | `Customer_History` aggregates total completed jobs, lifetime revenue, net profit contribution, and **average realized margin by client**. |
+| Contractor Daily Pain Point | High-Frequency Tracking Need | Automated Workbook Module | How This System Solves It Automatically |
+| :--- | :--- | :--- | :--- |
+| **"I forget to follow up on quotes and don't know which leads are worth my time."** | Construction Sales Lead & Bid Pipeline Tracking | `Lead_Tracker` | Logs client inquiries, estimated budgets, pipeline aging (days open), estimator ownership, and calculates projected profit before you even write a quote. |
+| **"I underprice jobs because I confuse markup with margin or forget overhead."** | Contractor Quote Generation & Overhead Allocation | `Quote_Builder` + `Material_DB` + `Labor_Rates` | Pulls standardized material unit costs and hourly labor rates, adds your exact overhead percentage, and reverse-calculates the exact tax-inclusive quote needed to hit your target profit margin. |
+| **"Once a job starts, I lose track of the original budget we agreed on."** | Contract Baseline & Active Project Management | `Approved_Jobs` + `Schedule` | Generates a unique `Job_ID` upon contract award, locking in the original estimated cost, contract value, project manager, and milestone dates as an unchangeable baseline. |
+| **"Paper timesheets and Home Depot receipts never get matched to the right job."** | Field Labor Hours & Material Cost Tracking | `Labor_Log` + `Material_Usage` | Converts raw crew hours and material quantities into dollar costs automatically using pre-linked lookup formulas tied to each `Job_ID`. |
+| **"I only find out a job lost money weeks after we finish and get paid."** | Real-Time Construction Job Costing & Budget vs. Actual Variance | `Job_Cost_Engine` + `Profit_Dashboard` | Aggregates live field labor, materials, and overhead against the original estimate, calculating real-time dollar variance, net margin, and triggering automatic **Cost Overrun Alerts**. |
+| **"I stay busy all year with repeat clients, but my bank account isn't growing."** | Customer Profitability & Lifetime Value (LTV) Analysis | `Customer_History` | Groups completed projects by client to reveal total historical revenue, true net profit contribution, average margin, and customer value ratings. |
 
 ---
 
-## How to Run a Construction Estimate & Job Costing Audit (Quick Start Workflow)
+## How to Estimate Jobs & Track Construction Costs in 1 Minute (Quick Start Workflow)
 
-Set up a standardized **estimating, job-tracking, and cost-control system** for your contracting business in four structured steps:
+You do not need accounting training or Excel formula skills to run this system. Follow this 4-step workflow to go from raw numbers to executive-level business decisions:
 
-### Step 1: Configure Global Financial & Overhead Rules
+### Step 1 — Set Your Global Business Rules (`Settings` Control Layer)
+Open the `Settings` tab and enter 6 basic numbers once: **Tax Rate, Overhead Allocation Rate, Target Profit Margin, Cost Overrun Alert Threshold (%), Currency Symbol, and Exchange Rate**. Every quote, cost calculation, and dashboard alert across the entire workbook updates automatically from this central console.
 
-Open the `Settings` control tab to define the financial guardrails used across your entire business:
+### Step 2 — Paste Your Standard Material Prices & Crew Labor Rates
+Populate `Material_DB` (material codes, descriptions, units, unit costs) and `Labor_Rates` (trade categories and hourly wage rates). These act as your central price book for both upfront estimating and back-end job costing.
 
-* **Sales Tax Rate (%)** & **Overhead Allocation Rate (%)**
-* **Target Gross Margin (%)** for automated quote calculation
-* **Cost Overrun Alert Threshold (%)** (e.g., flag jobs exceeding budget by more than 5%)
-* **Base Currency & Exchange Rate**
+### Step 3 — Run the Connected Lead-to-Profit Workflow
+```text
+1. Lead_Tracker (Log client inquiry & budget)
+   ↓
+2. Quote_Builder (Select materials & labor hours → Get instant suggested quote)
+   ↓
+3. Approved_Jobs (Lock contract value & generate unique Job_ID)
+   ↓
+4. Schedule (Track project start, end & milestone status)
+   ↓
+5. Labor_Log + Material_Usage (Record actual field hours & materials by Job_ID)
+   ↓
+6. Job_Cost_Engine (Auto-calculate Estimate vs. Actual variance & overrun alerts)
+   ↓
+7. Profit_Dashboard + Customer_History (Review net margins & top-paying clients)
+```
 
-*Action:* Explore the pre-configured control console right now in the [Free Browser Contractor Operating System](https://hyvoid.github.io/construction-job-costing-excel-template/).
+### Step 4 — Turn Complex Data into 1-Minute Executive Decisions (Free Web Trial → Local Excel System)
+Test the workflow right now using the **[Free Interactive Web Calculator in Your Browser](https://hyvoid.github.io/construction-job-costing-excel-template/)**. Once you see how the numbers connect, upgrade to the **[Full Unlocked Excel Template](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=contractor-operations-profitability)** for your daily business operations:
 
----
-
-### Step 2: Populate Your Material Price Book & Labor Rate Cards
-
-Establish your standardized cost databases once so estimators stop guessing unit prices:
-
-* **`Material_DB`:** Enter material SKUs/codes, item descriptions, specifications, units of measure (EA, LF, SQFT), and standard unit costs.
-* **`Labor_Rates`:** Define trade/craft categories (e.g., Apprentice, Journeyman, Foreman, Subcontractor) and burdened hourly labor rates.
-
----
-
-### Step 3: Execute the Connected Lead-to-Job Costing Workflow
-
-Follow the standardized 7-step operational sequence for every project:
-
-1. **Log the Inquiry** in `Lead_Tracker` (`Lead_ID`).
-2. **Build the Bid** in `Quote_Builder` using your master material and labor databases.
-3. **Lock the Contract** in `Approved_Jobs` (`Job_ID`) and set milestones in `Schedule`.
-4. **Log Field Execution** as crews submit hours in `Labor_Log` and pull inventory in `Material_Usage`.
-5. **Audit Variance & Margin** automatically in `Job_Cost_Engine`, `Profit_Dashboard`, and `Customer_History`.
-
----
-
-### Step 4: Manage by Exception & Download the Excel Template for Live Operations
-
-Instead of digging through hundreds of spreadsheet rows, use the dashboard to intervene on **stalled sales leads**, **jobs breaching cost-overrun thresholds**, **overdue milestones**, and **margin-eroding clients**.
-
-> 💡 **Ready to run your own construction estimates, crew timesheets, and job costing in this system?**
-> While the browser version lets you inspect the architecture instantly, managing real construction projects requires saving your own material price books, logging weekly field labor, and maintaining permanent project records.
-> 👉 **[Download the Full Unlocked Contractor Operations & Job Costing Excel Template](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=contractor-operations-profitability)** to customize rate tables, track unlimited jobs offline, and take full ownership of your project margins.
+* **Zero Formula Dragging or Excel Hassle:** Construction accounting math is complex, but the Excel workbook has **100% pre-built, auto-matching lookup rules and self-updating formulas**. You don't even need to double-click or drag cell corners to copy formulas. Simply download the file to your computer, paste your own data, and see instant profitability analysis in one click.
+* **Become a Business Analysis Expert in 1 Minute:** Even with zero financial background, you get clear visual decision feedback in 60 seconds—instantly spotting stalled leads, bleeding job budgets, and your most profitable customer types so you can stay focused on real job-site work during your busiest season.
+* **100% Local Data Privacy (No Cloud Leaks):** Unlike cloud SaaS tools that store your sensitive labor rates, material markups, and client lists on external servers, your Excel file lives securely on your local hard drive for unlimited repeatable use.
+* **One-Time Payment vs. Endless SaaS Subscriptions:** Save thousands of dollars per year compared to leading construction software subscriptions. Pay once, own the workflow forever, and rely on our **30-day no-questions-asked money-back guarantee** if it doesn't immediately simplify your business decisions.
 
 ---
 
-## The Business Logic & Methodology
+<a id="the-business-logic--methodology"></a>
+## The Business Logic & Methodology: Fixing Hidden Contractor Profit Leaks
 
-Most small-to-midsize contractors suffer from **"Profit Fade"**—where a project is bid at a healthy 35% margin on paper, but ends up yielding 8% net profit at year-end. This happens because estimating spreadsheets, field logs, and accounting ledgers operate on incompatible math.
+Most contractors work 60+ hours a week, win plenty of bids, and still end the year wondering where the cash went. When a contracting business loses money despite staying busy, it is rarely a craftsmanship failure—**it is a structural math blind spot**.
 
-To eliminate profit fade without forcing contractors into complex enterprise ERP software, this toolkit implements a **4-pillar construction accounting and operations methodology**:
+This system was engineered to eliminate **4 objective financial blind spots** that silently drain 10% to 25% of a beginner or growing contractor's net income:
 
-1. **Relational Primary-Key Chaining (`Lead_ID → Quote_ID → Job_ID → Customer_ID`):**
-In ad-hoc spreadsheets, estimates and actuals live in separate files with no structural link. This model enforces a relational database architecture inside Excel: a sales opportunity (`Lead_ID`) converts into an itemized bid; upon contract award, `Approved_Jobs` mints a unique `Job_ID` and snapshots the original estimated cost as a frozen baseline. Every downstream timesheet entry (`Labor_Log`), material pull (`Material_Usage`), and schedule task must reference a valid `Job_ID`, guaranteeing 100% traceability from initial bid to final job cost.
-2. **Reverse-Margin Pricing vs. Cost-Plus Markup Math:**
-One of the most expensive math errors in contracting is confusing **Markup** with **Gross Margin** (marking up a $1,000 cost by 25% yields a $1,250 price, which is only a **20% gross margin**, silently wiping out 5% of bottom-line profit). Inside `Quote_Builder`, the pricing engine aggregates Direct Material Cost ($M$), Direct Labor Cost ($L$), and Allocated Overhead ($O = (M + L) \times r_{\text{oh}}$), then applies **true reverse-margin divisor math** alongside tax calculation:
+### Blind Spot 1: The "Markup vs. Margin" Pricing Trap
+* **The Objective Fact:** Adding a **20% markup** to your costs does **not** give you a **20% profit margin**—it only gives you a **16.67% margin**. If your overhead is 15%, a 20% markup leaves you with just **1.67% net profit** before a single unexpected delay happens.
+* **How the Workbook Fixes It:** Instead of multiplying costs by a rough markup percentage, `Quote_Builder` uses true **Gross Margin Reverse Calculation** (`Suggested Quote = Total Estimated Cost / (1 - Target Margin %)`), guaranteeing your target profit percentage is mathematically protected on every bid.
 
-$$\text{Suggested Pre-Tax Quote} = \frac{\text{Direct Material} + \text{Direct Labor} + \text{Allocated Overhead}}{1 - \text{Target Margin \%}}$$
+### Blind Spot 2: Unallocated Overhead Bleeding
+* **The Objective Fact:** If you only price jobs based on direct materials and crew wages, you are paying for truck fuel, liability insurance, tool wear, software, and office admin out of your own pocket.
+* **How the Workbook Fixes It:** Both `Quote_Builder` and `Job_Cost_Engine` automatically apply your global **Overhead Allocation Rate** from `Settings` to every project, ensuring every job pays its fair share of fixed business expenses before calculating net profit.
 
-
-
-This ensures that when the contract is signed, the target gross margin percentage is mathematically protected.
-3. **Standard Costing & Activity-Based Field Absorption:**
-Field crews track operational quantities (**Hours Worked** and **Material Units Consumed**), not financial dollars. The costing engine decouples field data entry from financial valuation by joining `Labor_Log` and `Material_Usage` against the master rate tables (`Labor_Rates` and `Material_DB`). As field quantities are logged, the engine dynamically computes absorbed direct costs and applies the global overhead rate from `Settings` to reflect true **Total Job Cost**.
-4. **Threshold-Driven Budget Variance & LTV Aggregation:**
-Rather than treating job costing as a post-mortem exercise, `Job_Cost_Engine` continuously calculates **Cost Variance ($\Delta C = \text{Actual Total Cost} - \text{Estimated Baseline Cost}$)** and **Variance %**. If $\frac{\Delta C}{\text{Estimated Cost}} > \text{Overrun Threshold}$, the system triggers an automated exception state for immediate operational intervention. Simultaneously, completed `Job_ID` records roll up by `Customer_ID` into `Customer_History`, shifting commercial strategy from single-job bidding to **Customer Lifetime Profit Contribution**.
-
----
-
-## Why Most Contractor Profitability Errors Are Structural—Not Judgment Errors
-
-Experienced contractors rarely lose money because they don't know how to build. They lose money because **information breaks at every operational handoff**:
-
-### Before: The Disconnected Contractor Spreadsheet Trap
+### Blind Spot 3: The "Disconnected Data" Delay (Discovering Losses Too Late)
+When sales, estimating, field logs, and accounting live in separate places, information breaks at every handoff:
 
 ```text
-Sales Lead Notes → Standalone Excel Quote → Signed PDF Contract → Paper Crew Timesheets → Shoebox Material Receipts → Year-End Accountant Tax Summary
-                            ↘                                             ↙
-                              Zero real-time link between Estimate & Actuals
+[BROKEN TRADITIONAL WORKFLOW]
+Sales Inquiry → Separate Word/Excel Quote → Contract Signed → Paper Timesheets & Loose Receipts → Accountant Calculates Profit Months Later (Too Late to Fix)
 
+[CONNECTED WORKBOOK ARCHITECTURE]
+Lead_Tracker → Quote_Builder → Approved_Jobs (Job_ID)
+                                  ├── Schedule
+                                  ├── Labor_Log (Actual Hours × Standard Rate)
+                                  └── Material_Usage (Actual Qty × Unit Cost)
+                                         ↓
+                              Job_Cost_Engine (Live Estimate vs. Actual Variance)
+                                         ↓
+                              Profit_Dashboard & Customer_History (LTV)
 ```
+* **The Objective Fact:** If you wait until a job is finished (or until tax season) to total up receipts and labor hours, **100% of your opportunity to correct a cost overrun is already gone**.
+* **How the Workbook Fixes It:** By binding every field hour (`Labor_Log`) and material draw (`Material_Usage`) to a single `Job_ID`, `Job_Cost_Engine` compares actual spending against your original `Quote_Builder` baseline in real time—flagging cost overruns the moment they cross your warning threshold.
 
-* **The Handoff Failure:** The original estimate cannot be compared directly to actual field consumption. Labor hours get logged without a `Job_ID`. Material receipts get lumped into a generic QuickBooks expense account. By the time the business owner sees the profit number, the job has been closed for months.
-
-### After: One Connected Relational Operating Flow
-
-```text
-Lead_Tracker (Lead_ID)
-  ↓
-Quote_Builder (Standardized Material_DB + Labor_Rates + Reverse-Margin Math)
-  ↓
-Approved_Jobs (Locks Baseline Budget & Generates Unique Job_ID)
-  ├── Schedule (Milestones & Deadlines)
-  ├── Labor_Log (Field Hours × Standard Labor Rates)
-  └── Material_Usage (Field Quantities × Standard Material Unit Costs)
-        ↓
-  Job_Cost_Engine (Estimate vs. Actual Variance + Overrun Alert Thresholds)
-        ↓
-  Profit_Dashboard (Realized Project Margin % & Portfolio P&L)
-        ↓
-  Customer_History (Multi-Job Client Revenue, Profit & LTV Ranking)
-
-```
+### Blind Spot 4: Confusing High-Revenue Clients with High-Profit Clients
+* **The Objective Fact:** A repeat customer who gives you $100,000 in work at a 4% net margin ($4,000 profit) ties up your crew and equipment while generating less actual take-home cash than a $25,000 customer at a 25% margin ($6,250 profit).
+* **How the Workbook Fixes It:** `Customer_History` separates single-job revenue from multi-job **Customer Lifetime Value (LTV)**, showing you exactly which clients generate true net profit and which ones are quietly starving your business.
 
 ---
 
-## Disconnected Spreadsheets vs. This Connected Contractor Operating System
+## 7 Critical Contractor Management Decisions Answered Automatically
 
-| Operational Dimension | Disconnected Contractor Spreadsheets (Without This Tool) | Connected Job Costing & Operating System (With This Tool) |
-| --- | --- | --- |
-| **Sales Lead to Estimate Handoff** | Leads live in emails or notepads while quotes live in individual Excel files, making bid-hit ratios and pipeline profit invisible. | `Lead_ID` connects sales inquiries directly to `Quote_Builder`, projecting **pipeline profit contribution** based on target margin. |
-| **Preserving the Awarded Budget Baseline** | Once a bid is won, contractors edit the estimate file or start a blank tracker, erasing the original cost baseline needed for variance analysis. | `Approved_Jobs` locks the awarded quote's **Estimated Total Cost** under a unique `Job_ID` for side-by-side **Estimate vs. Actual** auditing. |
-| **Field Timesheets & Material Consumption** | Crew labor hours and jobsite material pulls remain raw operational notes rather than converting into real-time financial job costs. | `Labor_Log` and `Material_Usage` bind field quantities to `Job_ID`, automatically multiplying by **`Labor_Rates`** and **`Material_DB`** unit costs. |
-| **Mid-Project Cost Overrun Detection** | Cost overruns and labor blowouts are discovered weeks after project completion, when change orders can no longer be issued. | `Job_Cost_Engine` tracks live budget variance against a centralized **Cost Overrun Threshold**, triggering instant alerts while work is still in progress. |
-| **Single-Job Margin vs. Client Lifetime Value** | A contractor celebrates one profitable job for a client without realizing the previous four jobs for that same client lost money. | `Customer_History` rolls up **total jobs, cumulative revenue, net profit $, and average realized margin %** per customer account. |
-| **Global Overhead, Tax & Margin Rules** | Overhead percentages, tax rates, and markup formulas are hardcoded across dozens of tabs, causing costly quoting mistakes. | `Settings` serves as a **single source of truth**—updating overhead or target margin in one cell dynamically updates all downstream modules. |
-
----
-
-## Who This Is For: Target Contractor Roles & Trade Use Cases
-
-This system is engineered for **project-based construction businesses, specialty trade contractors, estimators, and owner-operators (typically 1 to 50 employees)** who want rigorous job-costing control without paying $500–$1,500/month for bloated construction ERP software:
-
-* **General Contractors (GCs) & Custom Home Builders / Remodelers:** Use this as a **complete residential or commercial project management and job costing Excel template** to track multiple active builds, monitor subcontractor/labor burn rates, and protect gross margins from estimate to final walkthrough.
-* **Specialty Trade Subcontractors (HVAC, Electrical, Plumbing, Roofing, Landscaping, Painting, Concrete):** Use this as a **trade estimating and field labor/material tracker** to standardize unit pricing in `Material_DB`, quote jobs accurately in minutes, and verify whether field crews beat or exceeded estimated labor hours.
-* **Construction Estimators & Sales Managers:** Use this as a **standardized construction bid & quote generator** coupled with a **contractor CRM lead tracker** to eliminate markup-vs-margin math errors and prioritize high-margin bids.
-* **Construction Project Managers & Field Superintendents:** Use this as an **Estimate-vs-Actual budget variance and schedule tracker** to catch labor overruns and material waste mid-project—while there is still time to course-correct or submit a client Change Order.
-* **Construction Bookkeepers, Controllers & Fractional CFOs:** Use this as an **operational job-costing sub-ledger** that bridges the gap between raw field activity (timesheets and material usage) and high-level tax accounting software like QuickBooks or Xero.
-
-*Note: This workbook is **not** intended to replace statutory payroll processing, tax filing software, or enterprise blueprint takeoff software. It is the lightweight **operational and commercial execution engine** that keeps your sales pipeline, project estimates, field costs, and customer profitability connected in one place.*
+1. **Which sales leads deserve immediate follow-up?**  
+   `Lead_Tracker` ranks your active bid pipeline not just by lead count, but by **pipeline aging** and **projected profit contribution** based on your target margin.
+2. **What exact dollar amount should this project be quoted at?**  
+   `Quote_Builder` combines material takeoff quantities (`Material_DB`) and labor hour estimates (`Labor_Rates`), adds overhead allocation, and outputs a precise tax-inclusive quote.
+3. **What was our official contracted budget baseline?**  
+   `Approved_Jobs` locks in the contracted value and original estimated cost under a permanent `Job_ID` so scope creep never erases your original baseline.
+4. **How much labor and material is the job consuming right now?**  
+   `Labor_Log` and `Material_Usage` turn raw field entries into standardized dollar costs per `Job_ID` automatically.
+5. **Is actual job cost drifting away from our original estimate?**  
+   `Job_Cost_Engine` calculates real-time dollar and percentage variance between estimated total cost and actual accumulated cost.
+6. **Is the project still profitable today?**  
+   `Profit_Dashboard` separates **projected margin at quote** from **actual live margin**, highlighting slipping margins before the job closes.
+7. **Which repeat customers actually make us money?**  
+   `Customer_History` aggregates total contract count, gross revenue, net profit dollars, average margin %, and client tier ratings across all historical jobs.
 
 ---
 
-## Frequently Asked Construction Job Costing & Estimating Scenarios
+## Construction Cost Tracking Comparison: Disconnected Spreadsheets vs. Connected Job Costing System
 
-If your contracting business is searching for a practical spreadsheet model to solve any of the following operational headaches, this system is built for you:
-
-* **Estimate vs. Actual Job Costing in Excel:** *How do I track actual field labor hours and material usage against my original project estimate to see real-time budget variance before a job goes over budget?*
-* **Standardizing Construction Quotes & Bids:** *How do I build a repeatable contractor quote template that pulls from a master material price list and labor rate card while automatically factoring in overhead, target gross margin, and tax?*
-* **Connecting Contractor CRM Leads to Project Profitability:** *How do I track a construction job from the initial customer phone call (Lead) all the way through estimating, job execution, final net profit, and repeat customer history in a single Excel workbook?*
-* **Identifying Profit Fade Across Crews & Clients:** *Why does my contracting business show strong revenue at the end of the year but low cash in the bank—and which specific jobs or repeat clients are silently eroding our gross margin?*
-
----
-
-## About Theseus Workshop
-
-I build lightweight, transparent Excel and browser-based operating models for businesses where there are too many moving parts to hold in one person's head, but where an expensive enterprise software rollout creates more friction than value.
-
-The central design principle behind every tool is simple:
-
-> **"What is the smallest, cleanest operational model that preserves the unbroken chain between daily field events and profitable management decisions?"**
-
-For project-based contractors, that means uniting **Lead → Estimate → Approved Job → Field Labor & Materials → Job Cost Variance → Net Profit → Customer History** inside one auditable, zero-bloat system.
+| Operational & Financial Problem | Without This System (Disconnected Spreadsheets & Paper Logs) | With This Connected Construction Job Costing Excel System |
+| :--- | :--- | :--- |
+| **Sales Lead & Estimate Disconnect** | Client inquiries live in emails or notebooks while quotes are built in standalone Word/Excel files, making bid conversion and pipeline profit impossible to track. | `Lead_ID` links sales opportunities directly to `Quote_Builder`, automatically projecting pipeline revenue and estimated gross profit. |
+| **Disappearing Project Budget Baseline** | Once a quote is won, actual expenses are tracked in a separate checkbook or sheet without preserving the original estimated cost structure. | `Approved_Jobs` transfers the exact estimated cost baseline from the winning quote into the active `Job_ID` record for line-by-line variance tracking. |
+| **Unpriced Field Timesheets & Material Logs** | Crew hours and material quantities are written down operationally, requiring hours of manual calculator work to convert into job costs. | `Labor_Log` and `Material_Usage` automatically multiply field quantities by `Labor_Rates` and `Material_DB` unit costs per `Job_ID`. |
+| **Late Discovery of Cost Overruns** | Owners discover labor creep or material waste weeks after project completion when the bank balance comes up short. | `Job_Cost_Engine` continuously compares actual cost vs. estimated budget and triggers an automatic **Overrun Alert** based on your `Settings` threshold. |
+| **High-Revenue vs. Low-Margin Client Blindness** | A busy client with frequent jobs looks valuable on paper even when tight bids and unbilled extras destroy your net margin. | `Customer_History` calculates cumulative net profit, average margin percentage, and Lifetime Value (LTV) per client across all completed jobs. |
+| **Broken Formulas & Inconsistent Markup Rules** | Tax rates, overhead percentages, and margin formulas are manually typed into individual sheets, causing costly quoting mistakes. | `Settings` serves as a single locked control layer—update tax, overhead, or target margin once and every calculation updates workbook-wide. |
 
 ---
 
-*Keywords: Construction Job Costing Excel Template, Contractor Estimating Spreadsheet, Estimate vs Actual Cost Tracker, General Contractor CRM & Quote Builder, Subcontractor Profit & Margin Calculator, Construction Material & Labor Log Excel, Project Management & Job Costing Workbook.*
+## About The Builder & Theseus Workshop
+
+I build lightweight, high-precision **Excel operations trackers, financial models, and decision-support templates** for business owners and operators who have too many moving parts to hold in their heads, but don't want the cost, bloat, or cloud lock-in of enterprise software.
+
+Every tool is built around one practical question:
+
+> **"What exact information needs to be connected in one place so you can make your next business decision confidently in under 60 seconds?"**
+
+For contracting and construction businesses, that means connecting the complete operational and commercial chain from **Lead &rarr; Estimate &rarr; Approved Job &rarr; Field Labor &amp; Materials &rarr; Job Cost Variance &rarr; Net Profit &rarr; Customer Lifetime Value**.
+
+### Ready to Take Control of Your Job Profits?
+* 🧪 **Test Drive in Browser (Free):** [Open the Interactive Construction Job Costing & Estimating Web App](https://hyvoid.github.io/construction-job-costing-excel-template/)
+* 📊 **Get the Complete Offline Excel System:** [Download the Construction Job Costing & Quote Builder Excel Template (30-Day Money-Back Guarantee)](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=contractor-operations-profitability)
+* 🏛️ **Visit the Official Store:** [Explore All Ready-to-Use Business & Operations Excel Templates at TheseusWorkshop.com](https://www.theseusworkshop.com)
 
 ---
 
 ## Technical Details
 
 <details>
-<summary>For technical reviewers, Excel practitioners, and collaborators</summary>
+<summary>Click to expand technical details</summary>
 
 ### Workbook Architecture
 
-The workbook consists of **12 core sheets** organized into three functional layers. The architecture separates controlled master data from operational records and downstream calculations, while maintaining a directional flow from input → calculation → output. 
+The workbook consists of **12 core sheets** organized into three functional layers. The architecture separates controlled master data from operational records and downstream calculations, while maintaining a directional flow from input → calculation → output.
 
-| Layer                      | Sheet              | Primary Role                               |
-| -------------------------- | ------------------ | ------------------------------------------ |
-| **Master Data & Control**  | `Settings`         | Central business parameters                |
-|                            | `Material_DB`      | Standard material catalog and costs        |
-|                            | `Labor_Rates`      | Standard labor categories and hourly rates |
-| **Operations & Execution** | `Lead_Tracker`     | Opportunity pipeline                       |
-|                            | `Quote_Builder`    | Estimate and quote calculation             |
-|                            | `Approved_Jobs`    | Contracted project master                  |
-|                            | `Schedule`         | Milestones and execution alerts            |
-|                            | `Labor_Log`        | Actual labor records                       |
-|                            | `Material_Usage`   | Actual material consumption                |
-| **Engine & Analytics**     | `Job_Cost_Engine`  | Actual project costing and profitability   |
-|                            | `Profit_Dashboard` | Management-level profitability analysis    |
-|                            | `Customer_History` | Customer-level commercial history          |
+| Layer | Sheet | Primary Role |
+|---|---|---|
+| **Master Data & Control** | `Settings` | Central business parameters |
+| | `Material_DB` | Standard material catalog and costs |
+| | `Labor_Rates` | Standard labor categories and hourly rates |
+| **Operations & Execution** | `Lead_Tracker` | Opportunity pipeline |
+| | `Quote_Builder` | Estimate and quote calculation |
+| | `Approved_Jobs` | Contracted project master |
+| | `Schedule` | Milestones and execution alerts |
+| | `Labor_Log` | Actual labor records |
+| | `Material_Usage` | Actual material consumption |
+| **Engine & Analytics** | `Job_Cost_Engine` | Actual project costing and profitability |
+| | `Profit_Dashboard` | Management-level profitability analysis |
+| | `Customer_History` | Customer-level commercial history |
 
 The principal data flow is:
 
@@ -291,7 +252,7 @@ The principal data flow is:
                 Profit_Dashboard  Customer_History
 ```
 
-The central design principle is **Unified Master Key**: `Job_ID` links the approved job to schedule records, labor records, material usage, and the job-cost engine. This is intended to eliminate the data-island problem between commercial planning and project execution. 
+The central design principle is **Unified Master Key**: `Job_ID` links the approved job to schedule records, labor records, material usage, and the job-cost engine. This is intended to eliminate the data-island problem between commercial planning and project execution.
 
 ### Central Control Layer
 
@@ -299,16 +260,16 @@ The central design principle is **Unified Master Key**: `Job_ID` links the appro
 
 The defined parameters are:
 
-| Cell | Parameter               |  Default | Used For                                 |
-| ---- | ----------------------- | -------: | ---------------------------------------- |
-| `B2` | Default Currency Symbol |      `$` | Monetary presentation                    |
-| `B3` | Tax Rate                | `13.00%` | Tax-inclusive / tax-exclusive conversion |
-| `B4` | Overhead Rate           | `10.00%` | Indirect cost allocation                 |
-| `B5` | Target Margin           | `25.00%` | Quote and opportunity profitability      |
-| `B6` | Overrun Threshold       |  `5.00%` | Project cost warning                     |
-| `B7` | USD/CAD Exchange Rate   | `1.0000` | Reserved currency conversion             |
+| Cell | Parameter | Default | Used For |
+|---|---|---:|---|
+| `B2` | Default Currency Symbol | `$` | Monetary presentation |
+| `B3` | Tax Rate | `13.00%` | Tax-inclusive / tax-exclusive conversion |
+| `B4` | Overhead Rate | `10.00%` | Indirect cost allocation |
+| `B5` | Target Margin | `25.00%` | Quote and opportunity profitability |
+| `B6` | Overrun Threshold | `5.00%` | Project cost warning |
+| `B7` | USD/CAD Exchange Rate | `1.0000` | Reserved currency conversion |
 
-These values are deliberately centralized. The architecture requires downstream formulas to reference `Settings` rather than hardcoding values such as `0.13`, `0.10`, or `0.25`. The implementation cross-check confirms that the tax, overhead, target margin, and overrun parameters are propagated to the appropriate calculation modules. 
+These values are deliberately centralized. The architecture requires downstream formulas to reference `Settings` rather than hardcoding values such as `0.13`, `0.10`, or `0.25`. The implementation cross-check confirms that the tax, overhead, target margin, and overrun parameters are propagated to the appropriate calculation modules.
 
 ### Three Traps That Catch Even Experienced Contractors
 
@@ -377,7 +338,7 @@ The implementation defines contract revenue on a tax-exclusive basis:
 =Contract_Amount/(1+Settings!$B$3)
 ```
 
-Actual profit is then calculated as tax-exclusive contract revenue less actual total cost. 
+Actual profit is then calculated as tax-exclusive contract revenue less actual total cost.
 
 </details>
 
@@ -433,7 +394,7 @@ Actual_Total_Cost =
     + Overhead_Allocation
 ```
 
-The implementation specifies the same overhead concept for quotation-stage costing and actual job costing. 
+The implementation specifies the same overhead concept for quotation-stage costing and actual job costing.
 
 </details>
 
@@ -484,7 +445,7 @@ The implementation defines `Cost_Variance` as:
 =Actual_Total_Cost-Estimated_Total_Cost
 ```
 
-The warning logic evaluates the actual cost-overrun percentage against `Settings!B6`. The dashboard then counts projects classified as severe cost overruns. 
+The warning logic evaluates the actual cost-overrun percentage against `Settings!B6`. The dashboard then counts projects classified as severe cost overruns.
 
 </details>
 
@@ -501,25 +462,25 @@ $113,000 ÷ 1.13
 
 The original quote contains:
 
-| Cost Component           |   Estimated |
-| ------------------------ | ----------: |
-| Materials                |     $42,000 |
-| Labor                    |     $35,000 |
-| Overhead allocation      |      $7,700 |
+| Cost Component | Estimated |
+|---|---:|
+| Materials | $42,000 |
+| Labor | $35,000 |
+| Overhead allocation | $7,700 |
 | **Estimated Total Cost** | **$84,700** |
-| **Initial Profit**       | **$15,300** |
-| **Initial Margin**       |  **15.30%** |
+| **Initial Profit** | **$15,300** |
+| **Initial Margin** | **15.30%** |
 
 During execution, actual records accumulate:
 
-| Cost Component        |      Actual |
-| --------------------- | ----------: |
-| Materials             |     $47,000 |
-| Labor                 |     $40,000 |
-| Overhead allocation   |      $8,700 |
+| Cost Component | Actual |
+|---|---:|
+| Materials | $47,000 |
+| Labor | $40,000 |
+| Overhead allocation | $8,700 |
 | **Actual Total Cost** | **$95,700** |
-| **Actual Profit**     |  **$4,300** |
-| **Actual Margin**     |   **4.30%** |
+| **Actual Profit** | **$4,300** |
+| **Actual Margin** | **4.30%** |
 
 The project has therefore moved from a **15.30% projected margin to a 4.30% actual margin**.
 
@@ -547,7 +508,7 @@ The more useful conclusion is:
 
 The next review should focus on where the variance originated—labor hours, material consumption, or both—and whether remaining project work can be controlled.
 
-This is precisely why the system preserves both the original estimate and actual execution costs instead of replacing the estimate with the latest spending figure. The `Job_Cost_Engine` is designed to expose the difference between these two states. 
+This is precisely why the system preserves both the original estimate and actual execution costs instead of replacing the estimate with the latest spending figure. The `Job_Cost_Engine` is designed to expose the difference between these two states.
 
 ### Formula Reference
 
@@ -566,8 +527,8 @@ This is precisely why the system preserves both the original estimate and actual
             inquiry_date="",
             "",
             IF(
-                OR(status="已中标",status="已流失"),
-                "已结案",
+                OR(status="Won",status="Lost"),
+                "Closed",
                 TODAY()-inquiry_date
             )
         )
@@ -636,7 +597,7 @@ Suggested Quote
 (Quote_Amount/(1+Settings!$B$3))
 ```
 
-`Quote_Builder` uses `XLOOKUP` to retrieve standard material and labor rates, while `MAP` and `LAMBDA` allow the calculation columns to spill dynamically as records expand. 
+`Quote_Builder` uses `XLOOKUP` to retrieve standard material and labor rates, while `MAP` and `LAMBDA` allow the calculation columns to spill dynamically as records expand.
 
 </details>
 
@@ -679,7 +640,7 @@ Suggested Quote
 (Contract_Amount/(1+Settings!$B$3))
 ```
 
-The purpose is to preserve the commercial economics at the moment the quote becomes an approved job. 
+The purpose is to preserve the commercial economics at the moment the quote becomes an approved job.
 
 </details>
 
@@ -692,7 +653,7 @@ The purpose is to preserve the commercial economics at the moment the quote beco
 =Actual_Hours*Hourly_Rate
 ```
 
-The hourly rate is retrieved from `Labor_Rates` based on `Labor_Code`. 
+The hourly rate is retrieved from `Labor_Rates` based on `Labor_Code`.
 
 **Actual material cost**
 
@@ -750,7 +711,7 @@ Both actual-cost streams are grouped by `Job_ID` before entering `Job_Cost_Engin
 
 **Cost-overrun warning**
 
-The overrun condition compares actual cost variance with the configured `Settings!B6` threshold rather than embedding a fixed percentage inside the formula. 
+The overrun condition compares actual cost variance with the configured `Settings!B6` threshold rather than embedding a fixed percentage inside the formula.
 
 </details>
 
@@ -805,7 +766,7 @@ The overrun condition compares actual cost variance with the configured `Setting
 )
 ```
 
-The calculation distinguishes completed work from incomplete work that has exceeded its planned end date. 
+The calculation distinguishes completed work from incomplete work that has exceeded its planned end date.
 
 </details>
 
@@ -867,33 +828,31 @@ The calculation distinguishes completed work from incomplete work that has excee
 )
 ```
 
-The source implementation uses cumulative profit contribution and average margin as the basis for customer-value classification, rather than evaluating customers by revenue alone. 
+The source implementation uses cumulative profit contribution and average margin as the basis for customer-value classification, rather than evaluating customers by revenue alone.
 
 </details>
 
 ### Validation Rules
 
-| Field / Area                    | Rule                                                                                | Error Behavior                                                                                   |
-| ------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| `Settings!B3` Tax Rate          | Must be a valid percentage used consistently across quote and revenue calculations. | Incorrect configuration produces inconsistent tax-inclusive and tax-exclusive amounts.           |
-| `Settings!B4` Overhead Rate     | Must be maintained centrally rather than embedded in formulas.                      | Project costing can become inconsistent if manually overridden elsewhere.                        |
-| `Settings!B5` Target Margin     | Must be a valid percentage used by lead potential and quote calculations.           | Incorrect value changes projected commercial economics.                                          |
-| `Settings!B6` Overrun Threshold | Must be a valid percentage used by job-cost warnings.                               | Incorrect value changes the sensitivity of cost alerts.                                          |
-| `Material_Code`                 | Must correspond to a valid record in `Material_DB`.                                 | Lookup may return `#N/A` or zero when the code is missing or malformed.                          |
-| `Labor_Code`                    | Must correspond to a valid record in `Labor_Rates`.                                 | Hourly rate cannot be retrieved correctly.                                                       |
-| `Job_ID`                        | Must reference the relevant approved project.                                       | Labor/material transactions can become detached from the correct project.                        |
-| `Actual_Hours`                  | Must be numeric and represent actual project labor consumption.                     | Invalid values distort actual labor cost.                                                        |
-| `Actual_Quantity`               | Must be numeric and tied to the relevant material code.                             | Invalid values distort actual material cost.                                                     |
-| `Completion_Pct`                | Expected range is `0%–100%`.                                                        | Values at or above 100% are treated as completed; incomplete overdue work generates an alert.    |
-| Dynamic-array output range      | Spill destination must remain clear.                                                | Occupied cells can generate `#SPILL!`.                                                           |
-| Excel calculation mode          | Must remain **Automatic**.                                                          | Changes to `Settings` may not propagate immediately when calculation is set to Manual.           |
-| Currency formatting             | Monetary cells must use the intended currency format.                               | Values may display with an incorrect currency symbol even when the underlying number is correct. |
+| Field / Area | Rule | Error Behavior |
+|---|---|---|
+| `Settings!B3` Tax Rate | Must be a valid percentage used consistently across quote and revenue calculations. | Incorrect configuration produces inconsistent tax-inclusive and tax-exclusive amounts. |
+| `Settings!B4` Overhead Rate | Must be maintained centrally rather than embedded in formulas. | Project costing can become inconsistent if manually overridden elsewhere. |
+| `Settings!B5` Target Margin | Must be a valid percentage used by lead potential and quote calculations. | Incorrect value changes projected commercial economics. |
+| `Settings!B6` Overrun Threshold | Must be a valid percentage used by job-cost warnings. | Incorrect value changes the sensitivity of cost alerts. |
+| `Material_Code` | Must correspond to a valid record in `Material_DB`. | Lookup may return `#N/A` or zero when the code is missing or malformed. |
+| `Labor_Code` | Must correspond to a valid record in `Labor_Rates`. | Hourly rate cannot be retrieved correctly. |
+| `Job_ID` | Must reference the relevant approved project. | Labor/material transactions can become detached from the correct project. |
+| `Actual_Hours` | Must be numeric and represent actual project labor consumption. | Invalid values distort actual labor cost. |
+| `Actual_Quantity` | Must be numeric and tied to the relevant material code. | Invalid values distort actual material cost. |
+| `Completion_Pct` | Expected range is `0%–100%`. | Values at or above 100% are treated as completed; incomplete overdue work generates an alert. |
+| Dynamic-array output range | Spill destination must remain clear. | Occupied cells can generate `#SPILL!`. |
+| Excel calculation mode | Must remain **Automatic**. | Changes to `Settings` may not propagate immediately when calculation is set to Manual. |
+| Currency formatting | Monetary cells must use the intended currency format. | Values may display with an incorrect currency symbol even when the underlying number is correct. |
 
-The implementation recommends Excel Data Validation for operational input fields where practical and explicitly identifies `#SPILL!`, manual calculation mode, missing master-data codes, and incorrect currency formatting as common operational failure modes. 
+The implementation recommends Excel Data Validation for operational input fields where practical and explicitly identifies `#SPILL!`, manual calculation mode, missing master-data codes, and incorrect currency formatting as common operational failure modes.
 
-The workbook's cross-check also verifies that the global parameters are referenced downstream and that calculation formulas do not hardcode the principal business assumptions. 
-
-</details>
+The workbook's cross-check also verifies that the global parameters are referenced downstream and that calculation formulas do not hardcode the principal business assumptions.
 
 ## Implementation Notes
 
@@ -903,13 +862,13 @@ The workbook is designed for Microsoft 365 / Excel 2021+ and uses modern dynamic
 
 Core functions include:
 
-* `XLOOKUP`
-* `FILTER`
-* `UNIQUE`
-* `SUMIFS`
-* `MAP`
-* `LET`
-* `LAMBDA`
+- `XLOOKUP`
+- `FILTER`
+- `UNIQUE`
+- `SUMIFS`
+- `MAP`
+- `LET`
+- `LAMBDA`
 
 The design objective is to avoid routine formula dragging and manual range expansion.
 
@@ -927,7 +886,7 @@ Dashboard / Analysis Updates
 
 This is particularly important for contractor workflows because leads, jobs, labor records, and material transactions are continuously added over time.
 
-The implementation uses dynamic-array logic in areas such as pipeline duration, potential profit, quote calculations, schedule alerts, and customer analysis. 
+The implementation uses dynamic-array logic in areas such as pipeline duration, potential profit, quote calculations, schedule alerts, and customer analysis.
 
 ### Project Key Architecture
 
@@ -949,14 +908,14 @@ Approved_Jobs
 
 This creates a single project-level relationship between:
 
-* the approved contract;
-* scheduled work;
-* actual labor;
-* actual materials;
-* actual cost;
-* project profitability.
+- the approved contract;
+- scheduled work;
+- actual labor;
+- actual materials;
+- actual cost;
+- project profitability.
 
-The architecture explicitly identifies the unified `Job_ID` as the core mechanism for eliminating data islands between project execution and financial analysis. 
+The architecture explicitly identifies the unified `Job_ID` as the core mechanism for eliminating data islands between project execution and financial analysis.
 
 ### Project Cost Reconciliation
 
@@ -986,7 +945,7 @@ Actual Margin
 
 This allows management to identify whether a project's economics deteriorated because actual resource consumption moved away from the original estimate.
 
-The `Job_Cost_Engine` therefore acts as the reconciliation layer between commercial planning and operational execution. 
+The `Job_Cost_Engine` therefore acts as the reconciliation layer between commercial planning and operational execution.
 
 ### Dashboard Dependency Model
 
@@ -1019,12 +978,12 @@ The dashboard summarizes outputs generated by the underlying project records and
 
 The implementation defines dashboard metrics including:
 
-* total projects;
-* tax-exclusive revenue;
-* actual total cost;
-* gross profit;
-* overall margin;
-* severe cost-overrun project count. 
+- total projects;
+- tax-exclusive revenue;
+- actual total cost;
+- gross profit;
+- overall margin;
+- severe cost-overrun project count.
 
 ---
 
@@ -1036,13 +995,13 @@ The recommended operating rhythm follows the same structure as the workbook arch
 
 Review:
 
-* `Settings`;
-* master-data completeness;
-* active leads;
-* current project status;
-* outstanding schedule exceptions.
+- `Settings`;
+- master-data completeness;
+- active leads;
+- current project status;
+- outstanding schedule exceptions.
 
-The purpose is to ensure the calculation environment and operational inputs are current before new records are entered. 
+The purpose is to ensure the calculation environment and operational inputs are current before new records are entered.
 
 ### During Operations
 
@@ -1092,13 +1051,13 @@ This turns the workbook from a static reporting file into a lightweight operatin
 
 ## Recommended Review Cadence
 
-| Frequency       | Primary Review                          | Recommended Focus                                                        |
-| --------------- | --------------------------------------- | ------------------------------------------------------------------------ |
-| **Daily**       | `Schedule` + execution logs             | Overdue tasks, missing labor/material entries                            |
-| **Weekly**      | `Lead_Tracker` + `Profit_Dashboard`     | Pipeline, active projects, emerging cost overruns                        |
-| **Per Project** | `Job_Cost_Engine`                       | Estimated vs. actual cost and margin                                     |
-| **Monthly**     | `Profit_Dashboard` + `Customer_History` | Overall profitability and customer contribution                          |
-| **Quarterly**   | `Settings` + master data                | Labor rates, material costs, overhead, target margin, warning thresholds |
+| Frequency | Primary Review | Recommended Focus |
+|---|---|---|
+| **Daily** | `Schedule` + execution logs | Overdue tasks, missing labor/material entries |
+| **Weekly** | `Lead_Tracker` + `Profit_Dashboard` | Pipeline, active projects, emerging cost overruns |
+| **Per Project** | `Job_Cost_Engine` | Estimated vs. actual cost and margin |
+| **Monthly** | `Profit_Dashboard` + `Customer_History` | Overall profitability and customer contribution |
+| **Quarterly** | `Settings` + master data | Labor rates, material costs, overhead, target margin, warning thresholds |
 
 The purpose of this cadence is to keep operational data maintenance and management review separate: field and project teams maintain the source records, while management uses the resulting calculations to make decisions.
 
@@ -1154,20 +1113,20 @@ Calculated columns should remain formula-driven.
 
 Users should update source records such as:
 
-* lead information;
-* quote inputs;
-* project status;
-* labor hours;
-* material quantities;
-* schedule dates.
+- lead information;
+- quote inputs;
+- project status;
+- labor hours;
+- material quantities;
+- schedule dates.
 
 They should not manually replace calculated:
 
-* total costs;
-* margins;
-* cost variance;
-* project profitability;
-* customer-level summaries.
+- total costs;
+- margins;
+- cost variance;
+- project profitability;
+- customer-level summaries.
 
 ---
 
@@ -1177,12 +1136,12 @@ This workbook is intentionally lightweight.
 
 It should **not** be treated as a replacement for:
 
-* accounting software;
-* payroll processing;
-* enterprise resource planning;
-* procurement systems;
-* field-service management platforms;
-* multi-user transactional databases.
+- accounting software;
+- payroll processing;
+- enterprise resource planning;
+- procurement systems;
+- field-service management platforms;
+- multi-user transactional databases.
 
 It is designed for operational control and decision support where Excel remains an appropriate working environment.
 
@@ -1196,7 +1155,7 @@ Older Excel versions may not support all dynamic-array functions used by the wor
 
 Excel should remain in **Automatic Calculation** mode.
 
-If calculation is manually disabled, changes to `Settings` or source records may not immediately propagate through the calculation chain. 
+If calculation is manually disabled, changes to `Settings` or source records may not immediately propagate through the calculation chain.
 
 ### Dynamic-Array Spill Space
 
@@ -1204,13 +1163,15 @@ Dynamic formulas require clear spill ranges.
 
 If another value occupies a required spill area, Excel may return `#SPILL!`.
 
-The appropriate response is to inspect the spill range rather than manually copying formulas into additional cells. 
+The appropriate response is to inspect the spill range rather than manually copying formulas into additional cells.
 
 ### Master Data Dependency
 
 `Material_Code` and `Labor_Code` depend on corresponding records in `Material_DB` and `Labor_Rates`.
 
-If a code is missing or malformed, the downstream lookup and costing calculations may not return the intended value. 
+If a code is missing or malformed, the downstream lookup and costing calculations may not return the intended value.
+
+</details>
 
 ---
 
