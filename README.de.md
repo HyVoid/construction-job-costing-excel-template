@@ -6,260 +6,221 @@
 
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-green.svg)
-![Tool Type](https://img.shields.io/badge/Tool%20Type-Construction%20Job%20Costing%20%26%20Estimating-orange.svg)
+![Platform](https://img.shields.io/badge/Platform-Free%20Web%20App%20%2B%20Excel%20Download-green.svg)
+![Tool Type](https://img.shields.io/badge/Tool%20Type-Construction%20Job%20Costing%20%26%20Quote%20Builder-orange.svg)
 
-**Eine All-in-One-Excel-Vorlage für Baustellenkostenrechnung, ein Kalkulations-Spreadsheet für Auftragnehmer und ein Lead-zu-Gewinn-CRM-Rechner für Generalunternehmer, Nachunternehmer und Handwerksbetriebe. Verfolgen Sie den kompletten Arbeitsablauf eines Auftragnehmers von Vertriebslead → Material- & Arbeitskostenvoranschlag → freigegebenem Projektbudget → Feld-Stundenzetteln & Materialverbrauch → Soll-Ist-Abweichung → Nettogewinnmarge → Kundenlebenswert (LTV).**
+<p><strong>Eine All-in-One-Excel-Vorlage für Baustellenkostenrechnung, ein Kalkulations-Spreadsheet für Auftragnehmer und ein Lead-zu-Gewinn-CRM-System für kleine Unternehmen – gebaut für Generalunternehmer, Nachunternehmer, Renovierungs- und Umbauunternehmer sowie spezialisierte Handwerksbetriebe. Verfolgen und berechnen Sie automatisch Ihren kompletten Auftragnehmer-Workflow: Vertriebslead-Pipeline &rarr; Materialaufstellung &amp; Arbeitskostenvoranschlag &rarr; freigegebenes Projektbudget &rarr; Feld-Stundenzettel &amp; Materialverbrauchsprotokoll &rarr; Soll-Ist-Kostenabweichung &rarr; Nettogewinnmarge &rarr; Kundenlebenswert (LTV).</strong></p>
 
-**Keine Registrierung. Keine Installation. Kostenlos im Browser testen.**
+**Kostenloser Online-Webrechner (keine Registrierung erforderlich) + bezahltes Offline-Excel-System (Einmalkauf, 30-tägige Geld-zurück-Garantie).**
 
-Testen Sie die interaktive Webanwendung kostenlos in Ihrem Browser oder laden Sie die vollständig entsperrte Excel-Spreadsheet-Vorlage für komplette Offline-Anpassungen herunter—abgesichert durch eine 30-tägige Geld-zurück-Garantie ohne Rückfragen.
+Testen Sie den interaktiven Baustellenkostenrechner kostenlos in Ihrem Browser – ganz ohne Installation – oder laden Sie die vollständig entsperrte, vorkonfigurierte Microsoft-Excel-Spreadsheet-Vorlage herunter, um Ihr Handwerksunternehmen offline zu betreiben—abgesichert durch eine **30-tägige, 100-%-Geld-zurück-Garantie ohne Rückfragen**.
 
-> 🌐 **Web-App testen:** [Interaktiver Bau-Kalkulations- & Baustellenkostenrechner (Live-Demo)](https://hyvoid.github.io/construction-job-costing-excel-template/)  
-> 📥 **Vollständiges Excel-System holen:** [Bearbeitbare Excel-Vorlage für Baustellenkostenrechnung & Angebotserstellung herunterladen](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=contractor-operations-profitability)  
-> ⚙️ **Architektur & Mathematik:** [Zur Geschäftslogik & Methodik der Baustellenkostenrechnung](#the-business-logic--methodology)
-
+> 🌐 **Kostenlosen Online-Rechner testen (Browser-Demo):** [Interaktive Auftragnehmer-Kalkulations- & Baustellenkostenrechnungs-Web-App starten (kostenloses Online-Tool)](https://hyvoid.github.io/construction-job-costing-excel-template/)  
+> 📥 **Vollständiges Offline-Excel-System herunterladen:** [Entsperrte Excel-Vorlage für Baustellenkostenrechnung, Angebotserstellung & Gewinn-Tracker holen (Sofort-Download)](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=contractor-operations-profitability)  
+> ⚙️ **Gewinn- & Preismathematik verstehen:** [Die Geschäftslogik für Auftragnehmer, Aufschlag vs. Marge & Baustellenkostenrechnungs-Methodik lesen](#the-business-logic--methodology)  
+> 🧰 **Weitere Unternehmensvorlagen entdecken:** [Fertige Excel-Betriebs- & Finanz-Tools bei Theseus Workshop stöbern](https://www.theseusworkshop.com)
 
 ---
 
-## Die verbundene betriebliche Prozesskette im Bau: vom Lead zur Baustellenkostenrechnung
+## Für wen das ist: Gewerkespezifische Kalkulations- & Baustellenkostenrechnungsszenarien
 
-Die meisten Bau-Spreadsheets lösen nur ein isoliertes Fragment des Unternehmens—und lassen Ihre **Vertriebspipeline**, **Kalkulationsaufstellung** und **Baustellenkostenrechnung vor Ort** in getrennten Dateien gefangen. 
+Die meisten kleinen bis mittelgroßen Auftragnehmer verlieren Geld nicht wegen schlechter Handwerkskunst, sondern weil ihre Kalkulations-Spreadsheets, Feld-Stundenzettel und Materialbelege in getrennten Dateien liegen. Dieses **Kalkulations- und Baustellenkostenrechnungs-Spreadsheet für Auftragnehmer** wurde für praktisch arbeitende Bautreibende und Betriebsteams entwickelt, die sofortige finanzielle Klarheit brauchen, ohne 200–500 $/Monat für komplexe Bau-ERP-Software zu zahlen:
 
-Diese Arbeitsmappe ist um eine einzige, ununterbrochene **relationale Prozesskette** herum aufgebaut, verankert durch `Lead_ID` und `Job_ID`:
+* **Generalunternehmer (GU) & Hausbauer (`General Contractor Estimating & Budget vs. Actual Template`):** Mehrphasige Wohn- oder Gewerbebauten steuern, vertragliche Baseline-Budgets festschreiben und Kostenüberschreitungen bei Nachunternehmern oder Materialien erkennen, bevor die Schlussrechnung gestellt wird.
+* **Renovierungs- & Umbauunternehmer (`Remodeling Cost Estimator & Project Profit Tracker`):** Küchen-, Bad- und Komplettsanierungen genau kalkulieren, indem die Material-Einheitendatenbank (`Material_DB`) und die Kolonnen-Stundensätze (`Labor_Rates`) direkt mit Kundenangeboten verknüpft werden.
+* **HVAC-, Sanitär- & Elektro-Nachunternehmer (`MEP Trade Service & Project Costing Spreadsheet`):** Hochfrequente Serviceeinsätze und Installationsaufträge verfolgen, kalkulierte Arbeitsstunden mit den tatsächlichen Feld-Stundenzetteln vergleichen und die Bruttomargen bei Teilen und Ausrüstung schützen.
+* **Dachdecker-, Fassaden-, Maler- & Trockenbauunternehmer (`Material Takeoff & Labor Hour Costing Calculator`):** Verhindern, dass Materialverschwendung und schleichende Arbeitsausweitung lautlos Ihren Gewinn auffressen, indem der tägliche Materialverbrauch (`Material_Usage`) gegen konkrete `Job_ID`-Datensätze protokolliert wird.
+* **Garten- & Landschaftsbau-, Pflaster- & Betonunternehmer (`Outdoor Construction Quote Builder & Crew Time Tracker`):** Gemeinkostenzuteilung, Gerätebelastung und Zielgewinnmargen in Sekunden berechnen – auch in der intensivsten Hauptsaison.
+* **Handwerkerbetriebe & Solo-Selbstständige (`Simple Contractor CRM, Quote Generator & Bookkeeping Prep Tool`):** Aufhören, nach Bauchgefühl zu kalkulieren. Mit einem einsteigerfreundlichen Copy-and-Paste-System Kundenanfragen in weniger als 1 Minute in professionelle, steuerinklusive Angebote umwandeln.
+* **Bau-Kalkulatoren & Baustellen-Projektleiter (`Work-in-Progress [WIP] Cost Variance & Margin Dashboard`):** Die Lücke zwischen Vertriebsschalter und Baustelle schließen, damit Kalkulatoren die echte Feldleistung sehen und Projektleiter die exakte Budgetobergrenze kennen.
+
+*Hinweis: Dieses Tool ist ein leichtgewichtiges betriebliches und finanzielles Entscheidungsunterstützungssystem – keine aufgeblähte Buchhaltungs-ERP-, Lohnabrechnungs- oder Enterprise-Beschaffungslösung.*
+
+---
+
+## Was es Ihnen hilft zu verfolgen: Von Auftragnehmer-Schmerzpunkten zu automatisierten Excel-Lösungen
+
+Die meisten Bauvorlagen lösen nur eine einzige isolierte Aufgabe (wie eine leere Rechnung oder eine einfache Materialliste). Diese Arbeitsmappe verbindet die **gesamte betriebliche Prozesskette des Auftragnehmers** – von der ersten Kundenanfrage bis zum finalen Nettogewinn:
 
 ```text
-Sales Lead (CRM Pipeline)
+Sales Lead (CRM)
   ↓
-Project Estimate (Material Takeoff + Labor + Overhead + Margin)
+Cost Estimate & Quote Builder
   ↓
-Approved Contract (Baseline Budget Locked via Job_ID)
+Approved Job Baseline (Job_ID)
   ↓
-Field Execution (Timesheet Labor Hours & Material Consumption)
+Field Labor Timesheets & Material Usage
   ↓
-Job Costing Engine (Estimate vs. Actual Variance & Overrun Alerts)
+Automated Job Costing Engine (Budget vs. Actual)
   ↓
-Real-Time Profit Dashboard (Gross Profit $ & Net Margin %)
+Net Profit Margin & Overrun Alerts
   ↓
-Customer LTV History (Repeat Client Profitability Ranking)
-
+Customer Lifetime Value (LTV) History
 ```
 
-### Eine Auftragnehmer-Arbeitsmappe. Acht integrierte Betriebsmodule.
+### Strukturierte Zuordnung von Schmerzpunkt zu Lösung (`What It Helps You Track`)
 
-| Prozessstufe | Excel-/Web-Modul | Wichtigste erfasste Bau- & Finanzkennzahlen |
-| --- | --- | --- |
-| **1. Vertriebspipeline (CRM)** | `Lead_Tracker` | Kundenanfragen, Angebotschancen, geschätzte Budgets, Pipeline-Alterung, Zuständigkeit des Kalkulators, prognostizierter Rohertrag. |
-| **2. Kalkulation & Angebotsabgabe** | `Quote_Builder` | Materialaufstellungen, Arbeitsstunden, direkte COGS, Gemeinkostenzuteilung, **Zielmarge vs. Aufschlag**, steuerinklusive Angebotssumme. |
-| **3. Vertragsbaseline** | `Approved_Jobs` | Vergebene Bauaufträge, eindeutige `Job_ID`-Generierung, Auftragswert, Termine, Zuständigkeit des Projektleiters. |
-| **4. Felderfassung** | `Labor_Log` + `Material_Usage` | Tägliche/wöchentliche Stundenzettelstunden der Kolonnen, Stundenlohnsätze der Gewerke, Materialverbrauch auf der Baustelle, direkt mit `Job_ID` verknüpft. |
-| **5. Baustellenkostenrechnung & WIP** | `Job_Cost_Engine` | Tatsächliche Material-COGS, tatsächliche belastete Arbeitskosten, zugeteilte Gemeinkosten, gesamte Projektkosten, **Soll-Ist-Abweichung des Budgets**. |
-| **6. Margen & Überschreitungen** | `Profit_Dashboard` | Realisierter Rohertrag ($), Nettogewinnmarge (%), **automatische Kostenüberschreitungs-Warnungen**, portfolioübergreifende GuV des Unternehmens. |
-| **7. Kundenintelligenz** | `Customer_History` | Projektübergreifende Kundenhistorie, kumulierte Auftragserlöse, lebenslanger Gewinnbeitrag, durchschnittliche Marge %, Kundenstufen-Einstufung. |
-
----
-
-## Was es zu verfolgen und entscheiden hilft: Zuordnung von Auftragnehmer-Schmerzpunkten zu Lösungen
-
-Anstatt bis zur Steuersaison zu warten, um zu erfahren, ob Ihre Kolonne an einem Bau Geld verdient oder verloren hat, behebt dieser **Rentabilitätstracker für Auftragnehmer** sieben kritische betriebliche blinde Flecken:
-
-| Ziel-Kennzahl / Schmerzpunkt | Der häufige blinde Fleck von Auftragnehmern | Wie dieses Baustellenkostenrechnungssystem ihn löst & verfolgt |
-| --- | --- | --- |
-| **Priorisierung von Vertriebsleads & Pipeline-Wert** | Jede Angebotsanfrage gleich verfolgen, ohne zu wissen, welche Chancen den höchsten Gewinnbeitrag bringen. | `Lead_Tracker` berechnet Pipeline-Dauer und **prognostizierten Rohertrag** auf Basis Ihrer Zielmarge, bevor Sie Kalkulationsstunden investieren. |
-| **Genaue Angebotspreise (Marge vs. Aufschlag)** | Aufträge unter Wert kalkulieren durch Verwechslung von *Aufschlag %* mit *Rohertragsmarge %*, oder Vergessen von Betriebsgemeinkosten und Umsatzsteuer. | `Quote_Builder` zieht Standardkosten aus `Material_DB` und `Labor_Rates`, wendet Gemeinkosten an und **kalkuliert rückwärts das exakte steuerinklusive Angebot**, das Ihre Zielmarge trifft. |
-| **Erhaltung der ursprünglichen Kalkulationsbaseline** | Überschreiben der ersten Kalkulation, sobald der Bau beginnt, was es unmöglich macht zu sehen, wo das Budget aus dem Ruder lief. | `Approved_Jobs` friert die geschätzten Kosten des vergebenen Angebots ein und vergibt eine dauerhafte `Job_ID` als unveränderliche **Baseline für Budgetabweichungen**. |
-| **Umwandlung von Feld-Stundenzetteln & Material in COGS** | Kolonnenstunden auf Papier-Stundenzetteln und Materialbelege in Schuhkartons verfolgen, ohne sie mit konkreten Projektbudgets zu verknüpfen. | `Labor_Log` und `Material_Usage` binden jede Feldstunde und jede Materialeinheit an `Job_ID` und multiplizieren automatisch mit den Standardsätzen im Kostenrechnungsmodul. |
-| **Echtzeit-Warnungen zu Kostenüberschreitungen & Budgetabweichungen** | Kostenüberschreitungen bei Arbeit oder Material erst entdecken, wenn der Auftrag zu 100 % fertig ist und die Schlussrechnung bezahlt wurde. | `Job_Cost_Engine` vergleicht fortlaufend **Ist-Kosten vs. Soll-Kosten** und löst visuelle **Überschreitungswarnungen** aus, sobald die Abweichung Ihre Schwelle durchbricht. |
-| **Geschätzte Marge vs. realisierte Nettomarge** | Annehmen, dass ein mit 30 % Marge kalkulierter Auftrag tatsächlich 30 % lieferte, und dabei nicht abgerechnete Zusatzarbeiten und zusätzliche Kolonnenstunden ignorieren. | Trennt explizit **ursprünglich prognostizierte Marge** von **tatsächlich realisierter Marge**, damit Projektleiter Margenerosion in Echtzeit sehen. |
-| **Kundenlebenswert-Rentabilität (Client-LTV)** | Umsatzstarke Generalunternehmer oder Hausverwalter als „VIP-Kunden“ behandeln, obwohl ihre Projekte konsequent Geld verlieren. | `Customer_History` aggregiert abgeschlossene Aufträge insgesamt, Lebenszeit-Erlöse, Nettogewinnbeitrag und **durchschnittlich realisierte Marge pro Kunde**. |
+| Täglicher Schmerzpunkt des Auftragnehmers | Hochfrequenter Verfolgungsbedarf | Automatisiertes Arbeitsmappenmodul | Wie dieses System es automatisch löst |
+| :--- | :--- | :--- | :--- |
+| **„Ich vergesse, Angeboten nachzugehen, und weiß nicht, welche Leads meine Zeit wert sind.“** | Verfolgung von Vertriebsleads & Angebots-Pipeline im Bau | `Lead_Tracker` | Protokolliert Kundenanfragen, geschätzte Budgets, Pipeline-Alterung (offene Tage), Zuständigkeit des Kalkulators und berechnet den prognostizierten Gewinn, bevor Sie überhaupt ein Angebot schreiben. |
+| **„Ich kalkuliere Aufträge unter Wert, weil ich Aufschlag mit Marge verwechsle oder Gemeinkosten vergesse.“** | Angebotserstellung & Gemeinkostenzuteilung für Auftragnehmer | `Quote_Builder` + `Material_DB` + `Labor_Rates` | Zieht standardisierte Material-Einheitskosten und Stundenlohnsätze, addiert Ihren exakten Gemeinkostenanteil und kalkuliert rückwärts das exakte steuerinklusive Angebot, das Ihre Zielgewinnmarge trifft. |
+| **„Sobald ein Bau läuft, verliere ich das ursprünglich vereinbarte Budget aus den Augen.“** | Vertragsbaseline & laufendes Projektmanagement | `Approved_Jobs` + `Schedule` | Erzeugt bei Auftragsvergabe eine eindeutige `Job_ID` und friert die ursprünglich geschätzten Kosten, den Auftragswert, den Projektleiter und die Meilensteintermine als unveränderliche Baseline ein. |
+| **„Papier-Stundenzettel und Baumarkt-Belege werden nie dem richtigen Bau zugeordnet.“** | Verfolgung von Feldarbeitsstunden & Materialkosten | `Labor_Log` + `Material_Usage` | Wandelt rohe Kolonnenstunden und Materialmengen automatisch in Kosten um – mittels vorgeverknüpfter Lookup-Formeln, die an jede `Job_ID` gebunden sind. |
+| **„Ich erfahre erst Wochen nach Abschluss und Bezahlung, dass ein Bau Geld verloren hat.“** | Echtzeit-Baustellenkostenrechnung & Budget-vs-Ist-Abweichung | `Job_Cost_Engine` + `Profit_Dashboard` | Aggregiert laufende Feldarbeit, Material und Gemeinkosten gegen die ursprüngliche Kalkulation, berechnet die Echtzeit-Kostenabweichung und Nettomarge und löst automatische **Kostenüberschreitungswarnungen** aus. |
+| **„Ich bin das ganze Jahr mit Stammkunden ausgelastet, aber mein Bankkonto wächst nicht.“** | Kundenrentabilität & Lebenswert-Analyse (LTV) | `Customer_History` | Gruppiert abgeschlossene Projekte nach Kunde und zeigt den gesamten historischen Umsatz, den wahren Nettogewinnbeitrag, die durchschnittliche Marge und Kundenwert-Einstufungen. |
 
 ---
 
-## Wie man ein Bau-Kalkulations- & Baustellenkostenrechnungs-Audit durchführt (Schnellstart-Ablauf)
+## Wie man Aufträge kalkuliert & Baukosten in 1 Minute verfolgt (Schnellstart-Workflow)
 
-Richten Sie ein standardisiertes **Kalkulations-, Auftragsverfolgungs- und Kostenkontrollsystem** für Ihr Bauunternehmen in vier strukturierten Schritten ein:
+Sie brauchen keine Buchhaltungsausbildung oder Excel-Formelkenntnisse, um dieses System zu betreiben. Folgen Sie diesem 4-Schritte-Workflow, um von rohen Zahlen zu Entscheidungen auf Geschäftsführerebene zu gelangen:
 
-### Schritt 1: Globale Finanz- & Gemeinkostenregeln konfigurieren
+### Schritt 1 — Globale Geschäftsregeln festlegen (`Settings`-Steuerungsebene)
+Öffnen Sie das Register `Settings` und geben Sie einmalig 6 grundlegende Zahlen ein: **Steuersatz, Gemeinkostenzuteilungssatz, Zielgewinnmarge, Schwelle für Kostenüberschreitungswarnung (%), Währungssymbol und Wechselkurs**. Jedes Angebot, jede Kostenberechnung und jede Dashboard-Warnung in der gesamten Arbeitsmappe aktualisiert sich automatisch über diese zentrale Konsole.
 
-Öffnen Sie das Steuerregister `Settings`, um die finanziellen Leitplanken für Ihr gesamtes Unternehmen zu definieren:
+### Schritt 2 — Standard-Materialpreise & Kolonnen-Stundenlohsätze eintragen
+Befüllen Sie `Material_DB` (Materialcodes, Beschreibungen, Einheiten, Einheitskosten) und `Labor_Rates` (Gewerkategorien und Stundenlohnsätze). Diese dienen als Ihr zentrales Preisbuch – sowohl für die vorgelagerte Kalkulation als auch für die nachgelagerte Baustellenkostenrechnung.
 
-* **Umsatzsteuersatz (%)** & **Gemeinkostenzuteilungssatz (%)**
-* **Ziel-Rohertragsmarge (%)** für automatische Angebotskalkulation
-* **Schwelle für Kostenüberschreitungswarnung (%)** (z. B. Aufträge markieren, die das Budget um mehr als 5 % übersteigen)
-* **Basiswährung & Wechselkurs**
+### Schritt 3 — Den verbundenen Lead-zu-Gewinn-Workflow ausführen
+```text
+1. Lead_Tracker (Log client inquiry & budget)
+   ↓
+2. Quote_Builder (Select materials & labor hours → Get instant suggested quote)
+   ↓
+3. Approved_Jobs (Lock contract value & generate unique Job_ID)
+   ↓
+4. Schedule (Track project start, end & milestone status)
+   ↓
+5. Labor_Log + Material_Usage (Record actual field hours & materials by Job_ID)
+   ↓
+6. Job_Cost_Engine (Auto-calculate Estimate vs. Actual variance & overrun alerts)
+   ↓
+7. Profit_Dashboard + Customer_History (Review net margins & top-paying clients)
+```
 
-*Aktion:* Erkunden Sie die vorkonfigurierte Steuerkonsole jetzt im [kostenlosen Browser-Betriebssystem für Auftragnehmer](https://hyvoid.github.io/construction-job-costing-excel-template/).
+### Schritt 4 — Komplexe Daten in 1-Minuten-Entscheidungen auf Geschäftsführerebene umwandeln (Kostenlose Web-Testversion → lokales Excel-System)
+Testen Sie den Workflow jetzt sofort mit dem **[kostenlosen interaktiven Webrechner in Ihrem Browser](https://hyvoid.github.io/construction-job-costing-excel-template/)**. Sobald Sie sehen, wie die Zahlen zusammenhängen, wechseln Sie für Ihren täglichen Geschäftsbetrieb zur **[vollständig entsperrten Excel-Vorlage](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=contractor-operations-profitability)**:
 
----
-
-### Schritt 2: Materialpreisbuch & Arbeitslohnsatz-Karten füllen
-
-Legen Sie Ihre standardisierten Kostendatenbanken einmal an, damit Kalkulatoren aufhören, Einheitenpreise zu schätzen:
-
-* **`Material_DB`:** Material-SKUs/Codes, Artikelbeschreibungen, Spezifikationen, Maßeinheiten (EA, LF, SQFT) und Standard-Einheitenkosten erfassen.
-* **`Labor_Rates`:** Gewerke/Handwerkskategorien (z. B. Azubi, Geselle, Vorarbeiter, Nachunternehmer) und belastete Stundenlohnsätze definieren.
-
----
-
-### Schritt 3: Den verbundenen Lead-zu-Baustellenkostenrechnung-Ablauf ausführen
-
-Befolgen Sie die standardisierte 7-schrittige Betriebsreihenfolge für jedes Projekt:
-
-1. **Anfrage protokollieren** in `Lead_Tracker` (`Lead_ID`).
-2. **Angebot erstellen** in `Quote_Builder` mit Ihren Material- und Arbeitshauptdatenbanken.
-3. **Vertrag fixieren** in `Approved_Jobs` (`Job_ID`) und Meilensteine in `Schedule` setzen.
-4. **Feldausführung protokollieren**, wenn Kolonnen Stunden in `Labor_Log` melden und Material in `Material_Usage` ziehen.
-5. **Abweichung & Marge prüfen** automatisch in `Job_Cost_Engine`, `Profit_Dashboard` und `Customer_History`.
-
----
-
-### Schritt 4: Nach Ausnahme steuern & Excel-Vorlage für den Live-Betrieb herunterladen
-
-Anstatt Hunderte von Spreadsheet-Zeilen zu durchforsten, nutzen Sie das Dashboard, um bei **stockenden Vertriebsleads**, **Aufträgen, die Kostenüberschreitungsschwellen durchbrechen**, **überfälligen Meilensteinen** und **margen zehrenden Kunden** einzugreifen.
-
-> 💡 **Bereit, eigene Baukalkulationen, Kolonnen-Stundenzettel und Baustellenkostenrechnung in diesem System zu betreiben?**
-> Während die Browserversion Ihnen erlaubt, die Architektur sofort zu inspizieren, erfordert die Steuerung echter Bauprojekte das Speichern Ihrer eigenen Materialpreisbücher, das wöchentliche Protokollieren von Feldarbeit und das Führen dauerhafter Projektakten.
-> 👉 **[Vollständig entsperrte Auftragnehmer-Betriebs- & Baustellenkostenrechnungs-Excel-Vorlage herunterladen](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=contractor-operations-profitability)**, um Satztabellen anzupassen, unbegrenzte Aufträge offline zu verfolgen und die volle Kontrolle über Ihre Projektmargen zu übernehmen.
+* **Kein Formelziehen, kein Excel-Ärger:** Die Buchhaltungsmathematik im Bau ist komplex, aber die Excel-Arbeitsmappe enthält **100 % vorgefertigte, automatisch abgeglichene Lookup-Regeln und selbstaktualisierende Formeln**. Sie müssen nicht einmal einen Doppelklick machen oder Zellecken ziehen, um Formeln zu kopieren. Laden Sie einfach die Datei auf Ihren Computer herunter, fügen Sie Ihre eigenen Daten ein und sehen Sie die Rentabilitätsanalyse mit einem Klick.
+* **In 1 Minute zum Business-Analyse-Experten werden:** Auch ohne jeglichen Finanzhintergrund erhalten Sie in 60 Sekunden klares visuelles Entscheidungs-Feedback – Sie erkennen sofort stockende Leads, blutende Bau-Budgets und Ihre profitabelsten Kundentypen, damit Sie sich in der Hauptsaison auf die echte Arbeit auf der Baustelle konzentrieren können.
+* **100 % lokale Datensicherheit (keine Cloud-Leaks):** Anders als Cloud-SaaS-Tools, die Ihre sensiblen Arbeitslohnsätze, Materialaufschläge und Kundenlisten auf externen Servern speichern, liegt Ihre Excel-Datei sicher auf Ihrer lokalen Festplatte – für unbegrenzte, wiederholbare Nutzung.
+* **Einmalkauf statt endloser SaaS-Abos:** Sparen Sie Tausende Dollar pro Jahr im Vergleich zu führenden Bau-Software-Abos. Einmal zahlen, den Workflow für immer besitzen und sich auf unsere **30-tägige Geld-zurück-Garantie ohne Rückfragen** verlassen, falls Ihre Geschäftsentscheidungen nicht sofort einfacher werden.
 
 ---
 
-## Die Geschäftslogik & Methodik
+<a id="the-business-logic--methodology"></a>
+## Die Geschäftslogik & Methodik: Versteckte Gewinnlecks von Auftragnehmern beheben
 
-Die meisten kleinen bis mittelgroßen Auftragnehmer leiden unter **„Gewinnschwund“**—wobei ein Projekt auf dem Papier mit einer gesunden 35-%-Marge kalkuliert wird, am Jahresende aber nur 8 % Nettogewinn abwirft. Das passiert, weil Kalkulations-Spreadsheets, Feldprotokolle und Buchhaltungsbücher mit inkompatibler Mathematik arbeiten.
+Die meisten Auftragnehmer arbeiten 60+ Stunden pro Woche, gewinnen reichlich Ausschreibungen und fragen sich am Jahresende trotzdem, wo das Geld geblieben ist. Wenn ein Handwerksunternehmen trotz Dauerbelastung Geld verliert, ist das selten ein Handwerksversagen—**es ist ein struktureller mathematischer blinder Fleck**.
 
-Um Gewinnschwund zu beseitigen, ohne Auftragnehmer in komplexe Enterprise-ERP-Software zu zwingen, implementiert diese Werkzeugsammlung eine **4-Säulen-Methodik für Bau-Buchhaltung und Betrieb**:
+Dieses System wurde entwickelt, um **4 objektive finanzielle blinde Flecken** zu beseitigen, die lautlos 10 % bis 25 % des Nettoeinkommens eines Anfänger- oder wachsenden Auftragnehmers abziehen:
 
-1. **Relationale Primärschlüssel-Verkettung (`Lead_ID → Quote_ID → Job_ID → Customer_ID`):**
-In Ad-hoc-Spreadsheets leben Schätzungen und Ist-Werte in getrennten Dateien ohne strukturelle Verbindung. Dieses Modul erzwingt eine relationale Datenbankarchitektur innerhalb von Excel: eine Vertriebschance (`Lead_ID`) wird zu einem positionierten Angebot; bei Auftragsvergabe prägt `Approved_Jobs` eine eindeutige `Job_ID` und friert die ursprünglich geschätzten Kosten als eingefrorene Baseline ein. Jede nachgelagerte Stundenzetteleingabe (`Labor_Log`), jeder Materialabzug (`Material_Usage`) und jede Terminplanaufgabe muss eine gültige `Job_ID` referenzieren, was 100 % Nachverfolgbarkeit vom ersten Angebot bis zur finalen Baustellenkostenrechnung garantiert.
-2. **Rückwärtskalkulation der Marge vs. Cost-Plus-Aufschlag-Mathematik:**
-Einer der teuersten mathematischen Fehler im Baugewerbe ist die Verwechslung von **Aufschlag** mit **Rohertragsmarge** (1.000 $ Kosten um 25 % aufzuschlagen ergibt einen Preis von 1.250 $, was nur eine **20-%-Rohertragsmarge** ist und damit 5 % des Bottom-Line-Gewinns lautlos auslöscht). Innerhalb von `Quote_Builder` aggregiert die Preismaschine direkte Materialkosten ($M$), direkte Arbeitskosten ($L$) und zugeteilte Gemeinkosten ($O = (M + L) \times r_{\text{oh}}$) und wendet dann **echte Rückwärts-Divisor-Mathematik der Marge** zusammen mit der Steuerberechnung an:
+### Blinder Fleck 1: Die Preisfalle „Aufschlag vs. Marge“
+* **Die objektive Tatsache:** Ein **20-%-Aufschlag** auf Ihre Kosten ergibt **nicht** eine **20-%-Gewinnmarge**—sondern nur eine **16,67-%-Marge**. Wenn Ihre Gemeinkosten bei 15 % liegen, bleibt Ihnen bei einem 20-%-Aufschlag nur ein **Nettogewinn von 1,67 %**, bevor die erste unerwartete Verzögerung passiert.
+* **Wie die Arbeitsmappe das behebt:** Statt die Kosten mit einem groben Aufschlagsprozentsatz zu multiplizieren, verwendet `Quote_Builder` eine echte **Rückwärtsberechnung der Bruttomarge** (`Suggested Quote = Total Estimated Cost / (1 - Target Margin %)`), wodurch Ihr Zielgewinnprozentsatz bei jedem Angebot mathematisch geschützt ist.
 
-$$\text{Vorgeschlagenes Angebot vor Steuern} = \frac{\text{Direktes Material} + \text{Direkte Arbeit} + \text{Zugeteilte Gemeinkosten}}{1 - \text{Zielmarge \%}}$$
+### Blinder Fleck 2: Lautlos abfließende, unzuteilte Gemeinkosten
+* **Die objektive Tatsache:** Wenn Sie Aufträge nur auf Basis direkter Material- und Kolonnenlöhne preisen, zahlen Sie Lkw-Kraftstoff, Haftpflichtversicherung, Werkzeugverschleiß, Software und Büroverwaltung aus eigener Tasche.
+* **Wie die Arbeitsmappe das behebt:** Sowohl `Quote_Builder` als auch `Job_Cost_Engine` wenden automatisch Ihren globalen **Gemeinkostenzuteilungssatz** aus `Settings` auf jedes Projekt an, sodass jeder Bau seinen fairen Anteil an den fixen Betriebsausgaben trägt, bevor der Nettogewinn berechnet wird.
 
-
-
-Das stellt sicher, dass bei Vertragsunterzeichnung die angestrebte Rohertragsmarge mathematisch geschützt ist.
-3. **Standardkostenrechnung & aktivitätsbasierte Feldabsorption:**
-Feldkolonnen erfassen betriebliche Mengen (**geleistete Stunden** und **verbrauchte Materialeinheiten**), keine finanziellen Dollar. Das Kostenrechnungsmodul entkoppelt Felderfassung von finanzieller Bewertung, indem es `Labor_Log` und `Material_Usage` mit den Hauptsatztabellen (`Labor_Rates` und `Material_DB`) verknüpft. Während Feldmengen protokolliert werden, berechnet das Modul dynamisch absorbierte direkte Kosten und wendet den globalen Gemeinkostensatz aus `Settings` an, um die wahren **gesamten Projektkosten** abzubilden.
-4. **Schwellenwertgesteuerte Budgetabweichung & LTV-Aggregation:**
-Anstatt Baustellenkostenrechnung als Post-Mortem-Übung zu behandeln, berechnet `Job_Cost_Engine` fortlaufend **Kostenabweichung ($\Delta C = \text{tatsächliche Gesamtkosten} - \text{geschätzte Baseline-Kosten}$)** und **Abweichung %**. Wenn $\frac{\Delta C}{\text{geschätzte Kosten}} > \text{Überschreitungsschwelle}$, löst das System einen automatischen Ausnahmezustand für sofortige betriebliche Intervention aus. Gleichzeitig rollen abgeschlossene `Job_ID`-Datensätze nach `Customer_ID` in `Customer_History` auf und verlagern die kommerzielle Strategie von Einzelauftrags-Angebotsabgabe hin zum **lebenslangen Gewinnbeitrag des Kunden**.
-
----
-
-## Warum die meisten Rentabilitätsfehler von Auftragnehmern strukturell sind—keine Beurteilungsfehler
-
-Erfahrene Auftragnehmer verlieren selten Geld, weil sie nicht bauen können. Sie verlieren Geld, weil **Informationen an jeder betrieblichen Übergabestelle brechen**:
-
-### Vorher: Die Falle des getrennten Auftragnehmer-Spreadsheets
+### Blinder Fleck 3: Die Verzögerung durch „getrennte Daten“ (Verluste zu spät entdecken)
+Wenn Vertrieb, Kalkulation, Feldprotokolle und Buchhaltung an getrennten Orten leben, bricht die Information an jeder Übergabestelle:
 
 ```text
-Sales Lead Notes → Standalone Excel Quote → Signed PDF Contract → Paper Crew Timesheets → Shoebox Material Receipts → Year-End Accountant Tax Summary
-                            ↘                                             ↙
-                              Zero real-time link between Estimate & Actuals
+[BROKEN TRADITIONAL WORKFLOW]
+Sales Inquiry → Separate Word/Excel Quote → Contract Signed → Paper Timesheets & Loose Receipts → Accountant Calculates Profit Months Later (Too Late to Fix)
 
+[CONNECTED WORKBOOK ARCHITECTURE]
+Lead_Tracker → Quote_Builder → Approved_Jobs (Job_ID)
+                                  ├── Schedule
+                                  ├── Labor_Log (Actual Hours × Standard Rate)
+                                  └── Material_Usage (Actual Qty × Unit Cost)
+                                         ↓
+                              Job_Cost_Engine (Live Estimate vs. Actual Variance)
+                                         ↓
+                              Profit_Dashboard & Customer_History (LTV)
 ```
+* **Die objektive Tatsache:** Wenn Sie warten, bis ein Bau abgeschlossen ist (oder bis zur Steuersaison), um Belege und Arbeitsstunden zusammenzurechnen, **ist 100 % Ihrer Gelegenheit, eine Kostenüberschreitung zu korrigieren, bereits vertan**.
+* **Wie die Arbeitsmappe das behebt:** Indem `Job_Cost_Engine` jede Feldstunde (`Labor_Log`) und jeden Materialabzug (`Material_Usage`) an eine einzige `Job_ID` bindet, vergleicht es die tatsächlichen Ausgaben in Echtzeit mit Ihrer ursprünglichen `Quote_Builder`-Baseline—und meldet Kostenüberschreitungen genau in dem Moment, in dem sie Ihre Warnschwelle überschreiten.
 
-* **Das Übergaberversagen:** Die ursprüngliche Kalkulation kann nicht direkt mit tatsächlichem Feldverbrauch verglichen werden. Arbeitsstunden werden ohne `Job_ID` protokolliert. Materialbelege landen in einem generischen QuickBooks-Aufwandskonto. Bis der Unternehmer die Gewinnzahl sieht, ist der Auftrag seit Monaten abgeschlossen.
-
-### Nachher: Ein verbundener relationaler Betriebsablauf
-
-```text
-Lead_Tracker (Lead_ID)
-  ↓
-Quote_Builder (Standardized Material_DB + Labor_Rates + Reverse-Margin Math)
-  ↓
-Approved_Jobs (Locks Baseline Budget & Generates Unique Job_ID)
-  ├── Schedule (Milestones & Deadlines)
-  ├── Labor_Log (Field Hours × Standard Labor Rates)
-  └── Material_Usage (Field Quantities × Standard Material Unit Costs)
-        ↓
-  Job_Cost_Engine (Estimate vs. Actual Variance + Overrun Alert Thresholds)
-        ↓
-  Profit_Dashboard (Realized Project Margin % & Portfolio P&L)
-        ↓
-  Customer_History (Multi-Job Client Revenue, Profit & LTV Ranking)
-
-```
+### Blinder Fleck 4: Umsatzstarke Kunden mit gewinnstarken Kunden verwechseln
+* **Die objektive Tatsache:** Ein Stammkunde, der Ihnen Arbeiten im Wert von 100.000 $ mit einer Nettomarge von 4 % bringt (4.000 $ Gewinn), bindet Ihre Kolonne und Ausrüstung und wirft weniger tatsächliches Take-Home-Geld ab als ein 25.000-$-Kunde mit 25 % Marge (6.250 $ Gewinn).
+* **Wie die Arbeitsmappe das behebt:** `Customer_History` trennt den Einzelauftragsumsatz vom mehrfach-auftragsbezogenen **Kundenlebenswert (LTV)** und zeigt Ihnen genau, welche Kunden echten Nettogewinn bringen und welche Ihr Geschäft lautlos aushungern.
 
 ---
 
-## Getrennte Spreadsheets vs. dieses verbundene Auftragnehmer-Betriebssystem
+## 7 kritische Managemententscheidungen für Auftragnehmer – automatisch beantwortet
 
-| Betriebliche Dimension | Getrennte Auftragnehmer-Spreadsheets (ohne dieses Werkzeug) | Verbundenes Baustellenkostenrechnungs- & Betriebssystem (mit diesem Werkzeug) |
-| --- | --- | --- |
-| **Übergabe Vertriebslead zu Kalkulation** | Leads leben in E-Mails oder Notizblöcken, während Angebote in einzelnen Excel-Dateien leben, was Trefferquoten und Pipeline-Gewinn unsichtbar macht. | `Lead_ID` verbindet Vertriebsanfragen direkt mit `Quote_Builder` und projiziert **Pipeline-Gewinnbeitrag** auf Basis der Zielmarge. |
-| **Erhaltung der vergebenen Budgetbaseline** | Sobald ein Angebot gewonnen ist, bearbeiten Auftragnehmer die Kalkulationsdatei oder starten einen leeren Tracker, wodurch die für die Abweichungsanalyse nötige ursprüngliche Kostenbaseline gelöscht wird. | `Approved_Jobs` friert die **geschätzten Gesamtkosten** des vergebenen Angebots unter einer eindeutigen `Job_ID` für side-by-side-**Soll-vs-Ist**-Prüfung ein. |
-| **Feld-Stundenzettel & Materialverbrauch** | Kolonnen-Arbeitsstunden und Baustellen-Materialabzüge bleiben rohe betriebliche Notizen, anstatt sich in Echtzeit-Finanz-Projektkosten zu verwandeln. | `Labor_Log` und `Material_Usage` binden Feldmengen an `Job_ID` und multiplizieren automatisch mit **`Labor_Rates`**- und **`Material_DB`**-Einheitenkosten. |
-| **Erkennung von Kostenüberschreitungen mitten im Projekt** | Kostenüberschreitungen und Arbeitskosten-Explosionen werden Wochen nach Projektabschluss entdeckt, wenn Nachtragsaufträge nicht mehr erteilt werden können. | `Job_Cost_Engine` verfolgt Live-Budgetabweichung gegen eine zentrale **Kostenüberschreitungsschwelle** und löst sofortige Warnungen aus, während die Arbeit noch läuft. |
-| **Einzelauftragsmarge vs. Kundenlebenswert** | Ein Auftragnehmer feiert einen profitablen Auftrag für einen Kunden, ohne zu realisieren, dass die vorherigen vier Aufträge für denselben Kunden Geld verloren haben. | `Customer_History` rollt **Gesamtaufträge, kumulierte Erlöse, Nettogewinn $ und durchschnittlich realisierte Marge %** pro Kundenkonto auf. |
-| **Globale Gemeinkosten-, Steuer- & Margenregeln** | Gemeinkostenprozentsätze, Steuersätze und Aufschlagformeln sind über Dutzende Register hartcodiert, was kostspielige Angebotsfehler verursacht. | `Settings` dient als **einzige Quelle der Wahrheit**—die Aktualisierung von Gemeinkosten oder Zielmarge in einer Zelle aktualisiert dynamisch alle nachgelagerten Module. |
-
----
-
-## Für wen das ist: Ziel-Auftragnehmerrollen & Gewerbe-Anwendungsfälle
-
-Dieses System ist für **projektbasierte Bauunternehmen, spezialisierte Handwerks-Auftragnehmer, Kalkulatoren und Eigentümer-Betreiber (typischerweise 1 bis 50 Mitarbeiter)** gemacht, die rigorose Baustellenkostenrechnungskontrolle wollen, ohne 500–1.500 $/Monat für aufgeblähte Bau-ERP-Software zu zahlen:
-
-* **Generalunternehmer (GU) sowie Haus- und Umbauunternehmer:** Nutzen Sie es als **komplette Bauprojektmanagement- und Baustellenkostenrechnungs-Excel-Vorlage für Wohn- oder Gewerbebauten**, um mehrere aktive Bauten zu verfolgen, Nachunternehmer-/Arbeits-Burn-Rates zu überwachen und Rohertragsmargen von der Kalkulation bis zur Endabnahme zu schützen.
-* **Spezialisierte Handwerks-Nachunternehmer (HVAC, Elektro, Sanitär, Dach, Landschaftsbau, Maler, Beton):** Nutzen Sie es als **Gewerbe-Kalkulations- und Feldarbeits-/Material-Tracker**, um Einheitenpreise in `Material_DB` zu standardisieren, Aufträge in Minuten genau zu kalkulieren und zu prüfen, ob Feldkolonnen geschätzte Arbeitsstunden unter- oder überboten haben.
-* **Bau-Kalkulatoren & Vertriebsleiter:** Nutzen Sie es als **standardisierten Bau-Angebots- & Angebotsgenerator** gekoppelt mit einem **Auftragnehmer-CRM-Lead-Tracker**, um Aufschlag-vs-Marge-Mathematikfehler zu beseitigen und margenstarke Angebote zu priorisieren.
-* **Bau-Projektleiter & Bauleiter:** Nutzen Sie es als **Soll-Ist-Budgetabweichungs- und Terminplan-Tracker**, um Arbeitsüberschreitungen und Materialverschwendung mitten im Projekt zu erkennen—während noch Zeit bleibt, gegenzusteuern oder einen Nachtragsauftrag beim Kunden einzureichen.
-* **Bau-Buchhalter, Controller & fractional CFOs:** Nutzen Sie es als **betriebliches Baustellenkostenrechnungs-Nebenbuch**, das die Lücke zwischen roher Feldaktivität (Stundenzettel und Materialverbrauch) und hochwertiger Steuer-Buchhaltungssoftware wie QuickBooks oder Xero schließt.
-
-*Hinweis: Diese Arbeitsmappe ist **nicht** dazu bestimmt, gesetzliche Lohnabrechnung, Steuererklärungssoftware oder Enterprise-Blueprint-Aufstellungssoftware zu ersetzen. Sie ist die leichtgewichtige **betriebliche und kommerzielle Ausführungsmaschine**, die Ihre Vertriebspipeline, Projektkalkulationen, Feldkosten und Kundenrentabilität an einem Ort verbunden hält.*
+1. **Welche Vertriebsleads verdienen sofortiges Nachfassen?**  
+   `Lead_Tracker` bewertet Ihre aktive Angebots-Pipeline nicht nur nach der Anzahl der Leads, sondern nach **Pipeline-Alterung** und **prognostiziertem Gewinnbeitrag** auf Basis Ihrer Zielmarge.
+2. **Zu welchem exakten Betrag sollte dieses Projekt angeboten werden?**  
+   `Quote_Builder` kombiniert Materialaufstellungsmengen (`Material_DB`) und Arbeitsstundenschätzungen (`Labor_Rates`), addiert die Gemeinkostenzuteilung und gibt ein präzises steuerinklusives Angebot aus.
+3. **Wie lautete unsere offizielle vertragliche Budgetbaseline?**  
+   `Approved_Jobs` friert den vertraglichen Wert und die ursprünglich geschätzten Kosten unter einer dauerhaften `Job_ID` ein, sodass Scope Creep Ihre ursprüngliche Baseline nie auslöscht.
+4. **Wie viel Arbeit und Material verbraucht der Bau gerade jetzt?**  
+   `Labor_Log` und `Material_Usage` wandeln rohe Feldeingaben automatisch in standardisierte Kosten pro `Job_ID` um.
+5. **Weicht die tatsächliche Baukostenrechnung von unserer ursprünglichen Kalkulation ab?**  
+   `Job_Cost_Engine` berechnet die Echtzeit-Abweichung in Betrag und Prozent zwischen den geschätzten Gesamtkosten und den tatsächlich angesammelten Kosten.
+6. **Ist das Projekt heute noch profitabel?**  
+   `Profit_Dashboard` trennt die **prognostizierte Marge im Angebot** von der **tatsächlichen Live-Marge** und hebt schwindende Margen hervor, bevor der Bau abgerechnet wird.
+7. **Welche Stammkunden bringen uns tatsächlich Geld?**  
+   `Customer_History` aggregiert die Gesamtzahl der Aufträge, den Bruttoumsatz, die Nettogewinnbeträge, die durchschnittliche Marge % und die Kundenstufen-Einstufungen über alle historischen Bauten.
 
 ---
 
-## Häufig gestellte Fragen zu Bau-Kalkulations- & Baustellenkostenrechnungsszenarien
+## Vergleich der Baukostenverfolgung: Getrennte Spreadsheets vs. verbundenes Baustellenkostenrechnungssystem
 
-Wenn Ihr Bauunternehmen nach einem praktischen Spreadsheet-Modell sucht, um eine der folgenden betrieblichen Kopfschmerzen zu lösen, ist dieses System für Sie gebaut:
-
-* **Soll-vs-Ist-Baustellenkostenrechnung in Excel:** *Wie verfolge ich tatsächliche Feld-Arbeitsstunden und Materialverbrauch gegen meine ursprüngliche Projektkalkulation, um Budgetabweichungen in Echtzeit zu sehen, bevor ein Auftrag das Budget übersteigt?*
-* **Standardisierung von Bau-Angeboten & Offerten:** *Wie baue ich eine wiederholbare Auftragnehmer-Angebotsvorlage, die aus einer Material-Hauptpreisliste und Arbeitslohnsatz-Karte zieht und automatisch Gemeinkosten, Ziel-Rohertragsmarge und Steuern berücksichtigt?*
-* **Verbindung von Auftragnehmer-CRM-Leads mit Projektrentabilität:** *Wie verfolge ich einen Bauauftrag vom ersten Kundenanruf (Lead) über Kalkulation, Auftragsausführung, endgültigen Nettogewinn bis zur wiederkehrenden Kundenhistorie in einer einzigen Excel-Arbeitsmappe?*
-* **Identifikation von Gewinnschwund über Kolonnen & Kunden:** *Warum zeigt mein Bauunternehmen am Jahresende starke Erlöse, aber wenig Bargeld auf der Bank—und welche konkreten Aufträge oder Wiederholungskunden zehren unsere Rohertragsmarge lautlos?*
-
----
-
-## Über Theseus Workshop
-
-Ich baue leichtgewichtige, transparente Excel- und Browser-basierte Betriebsmodelle für Unternehmen, in denen es zu viele bewegliche Teile gibt, um sie im Kopf zu behalten, aber wo ein teurer Enterprise-Software-Rollout mehr Reibung als Wert erzeugt.
-
-Das zentrale Designprinzip hinter jedem Werkzeug ist einfach:
-
-> **„Was ist das kleinste, sauberste Betriebsmodell, das die ununterbrochene Kette zwischen täglichen Feldereignissen und profitablen Managemententscheidungen bewahrt?“**
-
-Für projektbasierte Auftragnehmer bedeutet das, **Lead → Kalkulation → freigegebener Auftrag → Feldarbeit & Material → Baustellenkosten-Abweichung → Nettogewinn → Kundenhistorie** in einem prüfbaren, schlanken System zu vereinen.
+| Betriebliches & finanzielles Problem | Ohne dieses System (getrennte Spreadsheets & Papierprotokolle) | Mit diesem verbundenen Excel-System für Baustellenkostenrechnung |
+| :--- | :--- | :--- |
+| **Bruch zwischen Vertriebslead & Kalkulation** | Kundenanfragen leben in E-Mails oder Notizbüchern, während Angebote in eigenständigen Word-/Excel-Dateien entstehen – Angebotsabschluss und Pipeline-Gewinn sind nicht nachverfolgbar. | `Lead_ID` verknüpft Vertriebschancen direkt mit `Quote_Builder` und projiziert automatisch Pipeline-Umsatz und geschätzten Bruttogewinn. |
+| **Verschwindende Projekt-Budgetbaseline** | Sobald ein Angebot gewonnen ist, werden die tatsächlichen Ausgaben in einem separaten Kassenbuch oder Arbeitsblatt verfolgt, ohne die ursprüngliche geschätzte Kostenstruktur zu bewahren. | `Approved_Jobs` überträgt die exakte geschätzte Kostenbaseline aus dem gewonnenen Angebot in den aktiven `Job_ID`-Datensatz – für eine zeilenweise Abweichungsverfolgung. |
+| **Unbewertete Feld-Stundenzettel & Materialprotokolle** | Kolonnenstunden und Materialmengen werden nur betrieblich notiert und erfordern stundenlange manuelle Rechenarbeit, um sie in Baukosten umzuwandeln. | `Labor_Log` und `Material_Usage` multiplizieren die Feldmengen automatisch mit den Einheitskosten aus `Labor_Rates` und `Material_DB` – pro `Job_ID`. |
+| **Späte Erkennung von Kostenüberschreitungen** | Eigentümer entdecken Arbeitsausweitung oder Materialverschwendung erst Wochen nach Projektabschluss, wenn der Kontostand zu kurz kommt. | `Job_Cost_Engine` vergleicht fortlaufend die tatsächlichen Kosten mit dem geschätzten Budget und löst eine automatische **Überschreitungswarnung** basierend auf Ihrer `Settings`-Schwelle aus. |
+| **Blintheit gegenüber umsatzstarken vs. margenschwachen Kunden** | Ein ausgelaster Kunde mit häufigen Aufträgen wirkt auf dem Papier wertvoll, selbst wenn knapp kalkulierte Angebote und nicht abgerechnete Zusatzarbeiten Ihre Nettomarge zerstören. | `Customer_History` berechnet den kumulierten Nettogewinn, die durchschnittliche Marge % und den Lebenswert (LTV) pro Kunde über alle abgeschlossenen Bauten. |
+| **Kaputte Formeln & inkonsistente Aufschlagsregeln** | Steuersätze, Gemeinkostenprozentsätze und Margenformeln werden manuell in einzelne Register eingetippt, was kostspielige Kalkulationsfehler verursacht. | `Settings` dient als zentrale, gesperrte Steuerungsebene – Steuern, Gemeinkosten oder Zielmarge einmal aktualisieren, und jede Berechnung aktualisiert sich arbeitsmappenweit. |
 
 ---
 
-*Schlüsselwörter: Excel-Vorlage für Baustellenkostenrechnung, Kalkulations-Spreadsheet für Auftragnehmer, Soll-vs-Ist-Kostentracker, Generalunternehmer-CRM & Angebotsgenerator, Nachunternehmer-Gewinn- & Margenrechner, Excel für Baumaterial- & Arbeitsprotokoll, Bauprojektmanagement- & Baustellenkostenrechnungs-Arbeitsmappe.*
+## Über den Entwickler & Theseus Workshop
+
+Ich baue leichtgewichtige, hochpräzise **Excel-Betriebstracker, Finanzmodelle und Entscheidungsunterstützungsvorlagen** für Unternehmensinhaber und Betreiber, die zu viele bewegliche Teile haben, um sie im Kopf zu behalten, aber nicht die Kosten, die Aufblähung oder das Cloud-Lock-in von Enterprise-Software in Kauf nehmen wollen.
+
+Jedes Tool ist um eine einzige praktische Frage gebaut:
+
+> **„Welche exakten Informationen müssen an einem Ort verbunden sein, damit Sie Ihre nächste Geschäftsentscheidung in weniger als 60 Sekunden sicher treffen können?“**
+
+Für Handwerks- und Bauunternehmen bedeutet das, die komplette betriebliche und kommerzielle Kette zu verbinden: **Lead &rarr; Kalkulation &rarr; freigegebener Auftrag &rarr; Feldarbeit &amp; Material &rarr; Baukosten-Abweichung &rarr; Nettogewinn &rarr; Kundenlebenswert**.
+
+### Bereit, die Kontrolle über Ihre Bauprofite zu übernehmen?
+* 🧪 **Testfahrt im Browser (kostenlos):** [Die interaktive Web-App für Baustellenkostenrechnung & Kalkulation öffnen](https://hyvoid.github.io/construction-job-costing-excel-template/)
+* 📊 **Das komplette Offline-Excel-System holen:** [Die Excel-Vorlage für Baustellenkostenrechnung & Angebotserstellung herunterladen (30-tägige Geld-zurück-Garantie)](https://www.theseusworkshop.com/l/njmty?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=contractor-operations-profitability)
+* 🏛️ **Den offiziellen Shop besuchen:** [Alle fertigen Unternehmens- & Betriebs-Excel-Vorlagen auf TheseusWorkshop.com entdecken](https://www.theseusworkshop.com)
 
 ---
 
 ## Technische Details
 
 <details>
-<summary>Für technische Prüfer, Excel-Praktiker und Mitarbeiter</summary>
+<summary>Klicken zum Aufklappen der technischen Details</summary>
 
 ### Arbeitsmappen-Architektur
 
-Die Arbeitsmappe besteht aus **12 Kernblättern**, organisiert in drei funktionalen Schichten. Die Architektur trennt kontrollierte Stammdaten von Betriebsdatensätzen und nachgelagerten Berechnungen und hält einen gerichteten Fluss von Eingabe → Berechnung → Ausgabe aufrecht. 
+Die Arbeitsmappe besteht aus **12 Kernblättern**, organisiert in drei funktionalen Schichten. Die Architektur trennt kontrollierte Stammdaten von Betriebsdatensätzen und nachgelagerten Berechnungen und hält einen gerichteten Fluss von Eingabe → Berechnung → Ausgabe aufrecht.
 
-| Schicht                      | Blatt              | Primäre Rolle                               |
-| -------------------------- | ------------------ | ------------------------------------------ |
-| **Stammdaten & Steuerung**  | `Settings`         | Zentrale Geschäftsparameter                |
-|                            | `Material_DB`      | Standard-Materialkatalog und -kosten        |
-|                            | `Labor_Rates`      | Standard-Arbeitskategorien und Stundenlohnsätze |
-| **Betrieb & Ausführung** | `Lead_Tracker`     | Chancen-Pipeline                       |
-|                            | `Quote_Builder`    | Kalkulation und Angebotsberechnung                      |
-|                            | `Approved_Jobs`    | Stammdaten vergebener Projekte                  |
-|                            | `Schedule`         | Meilensteine und Ausführungswarnungen            |
-|                            | `Labor_Log`        | Tatsächliche Arbeitsdatensätze                       |
-|                            | `Material_Usage`   | Tatsächlicher Materialverbrauch                |
-| **Maschine & Analytics**     | `Job_Cost_Engine`  | Tatsächliche Projektkostenrechnung und Rentabilität   |
-|                            | `Profit_Dashboard` | Rentabilitätsanalyse auf Management-Ebene                    |
-|                            | `Customer_History` | Kundenbezogene Handelshistorie          |
+| Schicht | Blatt | Primäre Rolle |
+|---|---|---|
+| **Stammdaten & Steuerung** | `Settings` | Zentrale Geschäftsparameter |
+| | `Material_DB` | Standard-Materialkatalog und -kosten |
+| | `Labor_Rates` | Standard-Arbeitskategorien und Stundenlohnsätze |
+| **Betrieb & Ausführung** | `Lead_Tracker` | Chancen-Pipeline |
+| | `Quote_Builder` | Kalkulation und Angebotsberechnung |
+| | `Approved_Jobs` | Stammdaten vergebener Projekte |
+| | `Schedule` | Meilensteine und Ausführungswarnungen |
+| | `Labor_Log` | Tatsächliche Arbeitsdatensätze |
+| | `Material_Usage` | Tatsächlicher Materialverbrauch |
+| **Maschine & Analytics** | `Job_Cost_Engine` | Tatsächliche Projektkostenrechnung und Rentabilität |
+| | `Profit_Dashboard` | Rentabilitätsanalyse auf Management-Ebene |
+| | `Customer_History` | Kundenbezogene Handelshistorie |
 
 Der prinzipielle Datenfluss ist:
 
@@ -291,7 +252,7 @@ Der prinzipielle Datenfluss ist:
                 Profit_Dashboard  Customer_History
 ```
 
-Das zentrale Designprinzip ist **Einheitlicher Hauptschlüssel**: `Job_ID` verknüpft den freigegebenen Auftrag mit Terminplandatensätzen, Arbeitsdatensätzen, Materialverbrauch und der Baustellenkostenrechnungsmaschine. Ziel ist die Beseitigung des Dateninsel-Problems zwischen kommerzieller Planung und Projektausführung. 
+Das zentrale Designprinzip ist **Einheitlicher Hauptschlüssel**: `Job_ID` verknüpft den freigegebenen Auftrag mit Terminplandatensätzen, Arbeitsdatensätzen, Materialverbrauch und der Baustellenkostenrechnungsmaschine. Ziel ist die Beseitigung des Dateninsel-Problems zwischen kommerzieller Planung und Projektausführung.
 
 ### Zentrale Steuerungsschicht
 
@@ -299,16 +260,16 @@ Das zentrale Designprinzip ist **Einheitlicher Hauptschlüssel**: `Job_ID` verkn
 
 Die definierten Parameter sind:
 
-| Zelle | Parameter               |  Standard | Verwendet für                                 |
-| ---- | ----------------------- | -------: | ---------------------------------------- |
-| `B2` | Standard-Währungssymbol |      `$` | Monetäre Darstellung                    |
-| `B3` | Steuersatz                | `13.00%` | Steuerinklusive / -exklusive Umrechnung |
-| `B4` | Gemeinkostensatz           | `10.00%` | Indirekte Kostenzuteilung                 |
-| `B5` | Zielmarge           | `25.00%` | Angebots- und Chancenrentabilität      |
-| `B6` | Überschreitungsschwelle       |  `5.00%` | Projektkostenwarnung                     |
-| `B7` | USD/CAD-Wechselkurs   | `1.0000` | Reservierte Währungsumrechnung             |
+| Zelle | Parameter | Standard | Verwendet für |
+|---|---|---:|---|
+| `B2` | Standard-Währungssymbol | `$` | Monetäre Darstellung |
+| `B3` | Steuersatz | `13.00%` | Steuerinklusive / -exklusive Umrechnung |
+| `B4` | Gemeinkostensatz | `10.00%` | Indirekte Kostenzuteilung |
+| `B5` | Zielmarge | `25.00%` | Angebots- und Chancenrentabilität |
+| `B6` | Überschreitungsschwelle | `5.00%` | Projektkostenwarnung |
+| `B7` | USD/CAD-Wechselkurs | `1.0000` | Reservierte Währungsumrechnung |
 
-Diese Werte sind absichtlich zentralisiert. Die Architektur erfordert, dass nachgelagerte Formeln `Settings` referenzieren, anstatt Werte wie `0.13`, `0.10` oder `0.25` hartzucodieren. Die Implementierungs-Querprüfung bestätigt, dass Steuer-, Gemeinkosten-, Zielmargen- und Überschreitungsparameter an die entsprechenden Berechnungsmodule weitergegeben werden. 
+Diese Werte sind absichtlich zentralisiert. Die Architektur erfordert, dass nachgelagerte Formeln `Settings` referenzieren, anstatt Werte wie `0.13`, `0.10` oder `0.25` hartzucodieren. Die Implementierungs-Querprüfung bestätigt, dass Steuer-, Gemeinkosten-, Zielmargen- und Überschreitungsparameter an die entsprechenden Berechnungsmodule weitergegeben werden.
 
 ### Drei Fallen, die selbst erfahrene Auftragnehmer fangen
 
@@ -377,7 +338,7 @@ Die Implementierung definiert Auftragserlöse auf steuer-exklusiver Basis:
 =Contract_Amount/(1+Settings!$B$3)
 ```
 
-Tatsächlicher Gewinn wird dann als steuer-exklusive Auftragserlöse abzüglich tatsächlicher Gesamtkosten berechnet. 
+Tatsächlicher Gewinn wird dann als steuer-exklusive Auftragserlöse abzüglich tatsächlicher Gesamtkosten berechnet.
 
 </details>
 
@@ -433,7 +394,7 @@ Actual_Total_Cost =
     + Overhead_Allocation
 ```
 
-Die Implementierung spezifiziert dasselbe Gemeinkostenkonzept für Kalkulationsphasen-Kostenrechnung und tatsächliche Baustellenkostenrechnung. 
+Die Implementierung spezifiziert dasselbe Gemeinkostenkonzept für Kalkulationsphasen-Kostenrechnung und tatsächliche Baustellenkostenrechnung.
 
 </details>
 
@@ -484,13 +445,13 @@ Die Implementierung definiert `Cost_Variance` als:
 =Actual_Total_Cost-Estimated_Total_Cost
 ```
 
-Die Warnlogik bewertet den tatsächlichen Kostenüberschreitungsprozentsatz gegen `Settings!B6`. Das Dashboard zählt dann als schwere Kostenüberschreitungen klassifizierte Projekte. 
+Die Warnlogik bewertet den tatsächlichen Kostenüberschreitungsprozentsatz gegen `Settings!B6`. Das Dashboard zählt dann als schwere Kostenüberschreitungen klassifizierte Projekte.
 
 </details>
 
 ### Beispielszenario
 
-Ein Auftragnehmer nimmt ein Projekt mit einem steuerinklusive Auftragsbetrag von **113.000 $** an.
+Ein Auftragnehmer nimmt ein Projekt mit einem steuerinklusiven Auftragsbetrag von **113.000 $** an.
 
 Der konfigurierte Steuersatz beträgt **13 %**, daher sind die steuer-exklusiven Auftragserlöse:
 
@@ -501,25 +462,25 @@ $113,000 ÷ 1.13
 
 Das ursprüngliche Angebot enthält:
 
-| Kostenkomponente           |   Geschätzt |
-| ------------------------ | ----------: |
-| Material                |     42.000 $ |
-| Arbeit                    |     35.000 $ |
-| Gemeinkostenzuteilung      |      7.700 $ |
+| Kostenkomponente | Geschätzt |
+|---|---:|
+| Material | 42.000 $ |
+| Arbeit | 35.000 $ |
+| Gemeinkostenzuteilung | 7.700 $ |
 | **Geschätzte Gesamtkosten** | **84.700 $** |
-| **Ursprünglicher Gewinn**       | **15.300 $** |
-| **Ursprüngliche Marge**       |  **15,30 %** |
+| **Ursprünglicher Gewinn** | **15.300 $** |
+| **Ursprüngliche Marge** | **15,30 %** |
 
 Während der Ausführung akkumulieren tatsächliche Datensätze:
 
-| Kostenkomponente        |      Tatsächlich |
-| --------------------- | ----------: |
-| Material             |     47.000 $ |
-| Arbeit                 |     40.000 $ |
-| Gemeinkostenzuteilung   |      8.700 $ |
+| Kostenkomponente | Tatsächlich |
+|---|---:|
+| Material | 47.000 $ |
+| Arbeit | 40.000 $ |
+| Gemeinkostenzuteilung | 8.700 $ |
 | **Tatsächliche Gesamtkosten** | **95.700 $** |
-| **Tatsächlicher Gewinn**     |  **4.300 $** |
-| **Tatsächliche Marge**     |   **4,30 %** |
+| **Tatsächlicher Gewinn** | **4.300 $** |
+| **Tatsächliche Marge** | **4,30 %** |
 
 Das Projekt hat sich damit von einer **prognostizierten Marge von 15,30 % zu einer tatsächlichen Marge von 4,30 %** bewegt.
 
@@ -547,7 +508,7 @@ Die nützlichere Konklusion ist:
 
 Die nächste Überprüfung sollte sich darauf konzentrieren, woher die Abweichung stammte—Arbeitsstunden, Materialverbrauch oder beides—und ob verbleibende Projektarbeit gesteuert werden kann.
 
-Genau das ist der Grund, warum das System sowohl die ursprüngliche Kalkulation als auch tatsächliche Ausführungskosten erhält, anstatt die Kalkulation durch die letzte Ausgabenzahl zu ersetzen. `Job_Cost_Engine` ist dafür gebaut, den Unterschied zwischen diesen beiden Zuständen aufzudecken. 
+Genau das ist der Grund, warum das System sowohl die ursprüngliche Kalkulation als auch tatsächliche Ausführungskosten erhält, anstatt die Kalkulation durch die letzte Ausgabenzahl zu ersetzen. `Job_Cost_Engine` ist dafür gebaut, den Unterschied zwischen diesen beiden Zuständen aufzudecken.
 
 ### Formelreferenz
 
@@ -566,8 +527,8 @@ Genau das ist der Grund, warum das System sowohl die ursprüngliche Kalkulation 
             inquiry_date="",
             "",
             IF(
-                OR(status="已中标",status="已流失"),
-                "已结案",
+                OR(status="Won",status="Lost"),
+                "Closed",
                 TODAY()-inquiry_date
             )
         )
@@ -636,7 +597,7 @@ Suggested Quote
 (Quote_Amount/(1+Settings!$B$3))
 ```
 
-`Quote_Builder` verwendet `XLOOKUP`, um Standard-Material- und Arbeitslohnsätze abzurufen, während `MAP` und `LAMBDA` es den Berechnungsspalten erlauben, dynamisch zu spillen, wenn sich Datensätze erweitern. 
+`Quote_Builder` verwendet `XLOOKUP`, um Standard-Material- und Arbeitslohnsätze abzurufen, während `MAP` und `LAMBDA` es den Berechnungsspalten erlauben, dynamisch zu spillen, wenn sich Datensätze erweitern.
 
 </details>
 
@@ -679,7 +640,7 @@ Suggested Quote
 (Contract_Amount/(1+Settings!$B$3))
 ```
 
-Der Zweck ist, die kommerzielle Wirtschaftlichkeit zum Moment zu erhalten, in dem das Angebot zum freigegebenen Auftrag wird. 
+Der Zweck ist, die kommerzielle Wirtschaftlichkeit zum Moment zu erhalten, in dem das Angebot zum freigegebenen Auftrag wird.
 
 </details>
 
@@ -692,7 +653,7 @@ Der Zweck ist, die kommerzielle Wirtschaftlichkeit zum Moment zu erhalten, in de
 =Actual_Hours*Hourly_Rate
 ```
 
-Der Stundenlohnsatz wird aus `Labor_Rates` basierend auf `Labor_Code` abgerufen. 
+Der Stundenlohnsatz wird aus `Labor_Rates` basierend auf `Labor_Code` abgerufen.
 
 **Tatsächliche Materialkosten**
 
@@ -750,7 +711,7 @@ Beide tatsächlichen Kostenströme werden nach `Job_ID` gruppiert, bevor sie in 
 
 **Kostenüberschreitungswarnung**
 
-Die Überschreitungsbedingung vergleicht tatsächliche Kostenabweichung mit der konfigurierten `Settings!B6`-Schwelle, anstatt einen festen Prozentsatz in die Formel einzubetten. 
+Die Überschreitungsbedingung vergleicht tatsächliche Kostenabweichung mit der konfigurierten `Settings!B6`-Schwelle, anstatt einen festen Prozentsatz in die Formel einzubetten.
 
 </details>
 
@@ -805,7 +766,7 @@ Die Überschreitungsbedingung vergleicht tatsächliche Kostenabweichung mit der 
 )
 ```
 
-Die Berechnung unterscheidet abgeschlossene Arbeit von unvollständiger Arbeit, die ihr geplantes Enddatum überschritten hat. 
+Die Berechnung unterscheidet abgeschlossene Arbeit von unvollständiger Arbeit, die ihr geplantes Enddatum überschritten hat.
 
 </details>
 
@@ -867,33 +828,31 @@ Die Berechnung unterscheidet abgeschlossene Arbeit von unvollständiger Arbeit, 
 )
 ```
 
-Die Quellimplementierung verwendet kumulierten Gewinnbeitrag und Durchschnittsmarge als Basis für die Kundenwert-Klassifizierung, anstatt Kunden nach Erlös allein zu bewerten. 
+Die Quellimplementierung verwendet kumulierten Gewinnbeitrag und Durchschnittsmarge als Basis für die Kundenwert-Klassifizierung, anstatt Kunden nach Erlös allein zu bewerten.
 
 </details>
 
 ### Validierungsregeln
 
-| Feld / Bereich                    | Regel                                                                                | Fehlerverhalten                                                                                   |
-| ------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| `Settings!B3` Steuersatz          | Muss ein gültiger Prozentsatz sein, konsistent in Angebots- und Erlösberechnungen verwendet. | Falsche Konfiguration erzeugt inkonsistente steuerinklusive und -exklusive Beträge.           |
-| `Settings!B4` Gemeinkostensatz     | Muss zentral gepflegt werden anstatt in Formeln eingebettet.                      | Projektkostenrechnung kann inkonsistent werden, wenn anderswo manuell überschrieben.                        |
-| `Settings!B5` Zielmarge     | Muss ein gültiger Prozentsatz sein, von Lead-Potenzial- und Angebotsberechnungen verwendet.           | Falscher Wert ändert prognostizierte kommerzielle Wirtschaftlichkeit.                                          |
-| `Settings!B6` Überschreitungsschwelle | Muss ein gültiger Prozentsatz sein, von Projektkostenwarnungen verwendet.                               | Falscher Wert ändert die Empfindlichkeit von Kostenwarnungen.                                          |
-| `Material_Code`                 | Muss einem gültigen Datensatz in `Material_DB` entsprechen.                                 | Lookup kann `#N/A` oder Null zurückgeben, wenn der Code fehlt oder fehlerhaft ist.                          |
-| `Labor_Code`                    | Muss einem gültigen Datensatz in `Labor_Rates` entsprechen.                                 | Stundenlohnsatz kann nicht korrekt abgerufen werden.                                                       |
-| `Job_ID`                        | Muss das relevante freigegebene Projekt referenzieren.                                       | Arbeits-/Materialtransaktionen können vom korrekten Projekt getrennt werden.                        |
-| `Actual_Hours`                  | Muss numerisch sein und tatsächlichen Projektarbeitsverbrauch darstellen.                     | Ungültige Werte verzerren tatsächliche Arbeitskosten.                                                        |
-| `Actual_Quantity`               | Muss numerisch und an den relevanten Materialcode gebunden sein.                             | Ungültige Werte verzerren tatsächliche Materialkosten.                                                        |
-| `Completion_Pct`                | Erwarteter Bereich ist `0%–100%`.                                                        | Werte bei oder über 100 % werden als abgeschlossen behandelt; unvollständige überfällige Arbeit erzeugt eine Warnung.    |
-| Dynamic-Array-Ausgabebereich      | Spill-Ziel muss frei bleiben.                                                | Belegte Zellen können `#SPILL!` erzeugen.                                                           |
-| Excel-Berechnungsmodus          | Muss **Automatisch** bleiben.                                                          | Änderungen an `Settings` dürfen möglicherweise nicht sofort propagieren, wenn Berechnung auf Manuell steht.           |
-| Währungsformatierung             | Monetäre Zellen müssen das beabsichtigte Währungsformat verwenden.                               | Werte dürfen mit falschem Währungssymbol anzeigen, auch wenn die zugrundeliegende Zahl korrekt ist. |
+| Feld / Bereich | Regel | Fehlerverhalten |
+|---|---|---|
+| `Settings!B3` Steuersatz | Muss ein gültiger Prozentsatz sein, konsistent in Angebots- und Erlösberechnungen verwendet. | Falsche Konfiguration erzeugt inkonsistente steuerinklusive und -exklusive Beträge. |
+| `Settings!B4` Gemeinkostensatz | Muss zentral gepflegt werden anstatt in Formeln eingebettet. | Projektkostenrechnung kann inkonsistent werden, wenn anderswo manuell überschrieben. |
+| `Settings!B5` Zielmarge | Muss ein gültiger Prozentsatz sein, von Lead-Potenzial- und Angebotsberechnungen verwendet. | Falscher Wert ändert prognostizierte kommerzielle Wirtschaftlichkeit. |
+| `Settings!B6` Überschreitungsschwelle | Muss ein gültiger Prozentsatz sein, von Projektkostenwarnungen verwendet. | Falscher Wert ändert die Empfindlichkeit von Kostenwarnungen. |
+| `Material_Code` | Muss einem gültigen Datensatz in `Material_DB` entsprechen. | Lookup kann `#N/A` oder Null zurückgeben, wenn der Code fehlt oder fehlerhaft ist. |
+| `Labor_Code` | Muss einem gültigen Datensatz in `Labor_Rates` entsprechen. | Stundenlohnsatz kann nicht korrekt abgerufen werden. |
+| `Job_ID` | Muss das relevante freigegebene Projekt referenzieren. | Arbeits-/Materialtransaktionen können vom korrekten Projekt getrennt werden. |
+| `Actual_Hours` | Muss numerisch sein und tatsächlichen Projektarbeitsverbrauch darstellen. | Ungültige Werte verzerren tatsächliche Arbeitskosten. |
+| `Actual_Quantity` | Muss numerisch und an den relevanten Materialcode gebunden sein. | Ungültige Werte verzerren tatsächliche Materialkosten. |
+| `Completion_Pct` | Erwarteter Bereich ist `0%–100%`. | Werte bei oder über 100 % werden als abgeschlossen behandelt; unvollständige überfällige Arbeit erzeugt eine Warnung. |
+| Dynamic-Array-Ausgabebereich | Spill-Ziel muss frei bleiben. | Belegte Zellen können `#SPILL!` erzeugen. |
+| Excel-Berechnungsmodus | Muss **Automatisch** bleiben. | Änderungen an `Settings` dürfen möglicherweise nicht sofort propagieren, wenn Berechnung auf Manuell steht. |
+| Währungsformatierung | Monetäre Zellen müssen das beabsichtigte Währungsformat verwenden. | Werte dürfen mit falschem Währungssymbol anzeigen, auch wenn die zugrundeliegende Zahl korrekt ist. |
 
-Die Implementierung empfiehlt Excel-Datenvalidierung für betriebliche Eingabefelder, wo praktikabel, und identifiziert explizit `#SPILL!`, manuellen Berechnungsmodus, fehlende Stammdaten-Codes und falsche Währungsformatierung als gängige betriebliche Fehlermodi. 
+Die Implementierung empfiehlt Excel-Datenvalidierung für betriebliche Eingabefelder, wo praktikabel, und identifiziert explizit `#SPILL!`, manuellen Berechnungsmodus, fehlende Stammdaten-Codes und falsche Währungsformatierung als gängige betriebliche Fehlermodi.
 
-Die Querprüfung der Arbeitsmappe verifiziert ebenfalls, dass globale Parameter nachgelagert referenziert werden und dass Berechnungsformeln die prinzipiellen Geschäftsannahmen nicht hartcodieren. 
-
-</details>
+Die Querprüfung der Arbeitsmappe verifiziert ebenfalls, dass globale Parameter nachgelagert referenziert werden und dass Berechnungsformeln die prinzipiellen Geschäftsannahmen nicht hartcodieren.
 
 ## Implementierungshinweise
 
@@ -903,13 +862,13 @@ Die Arbeitsmappe ist für Microsoft 365 / Excel 2021+ konzipiert und verwendet m
 
 Kernfunktionen umfassen:
 
-* `XLOOKUP`
-* `FILTER`
-* `UNIQUE`
-* `SUMIFS`
-* `MAP`
-* `LET`
-* `LAMBDA`
+- `XLOOKUP`
+- `FILTER`
+- `UNIQUE`
+- `SUMIFS`
+- `MAP`
+- `LET`
+- `LAMBDA`
 
 Das Designziel ist, routinemäßiges Formelziehen und manuelle Bereichserweiterung zu vermeiden.
 
@@ -927,7 +886,7 @@ Dashboard / Analysis Updates
 
 Das ist besonders wichtig für Auftragnehmer-Abläufe, weil Leads, Aufträge, Arbeitsdatensätze und Materialtransaktionen kontinuierlich über die Zeit hinzugefügt werden.
 
-Die Implementierung verwendet Dynamic-Array-Logik in Bereichen wie Pipeline-Dauer, potenziellem Gewinn, Angebotsberechnungen, Terminplanwarnungen und Kundenanalyse. 
+Die Implementierung verwendet Dynamic-Array-Logik in Bereichen wie Pipeline-Dauer, potenziellem Gewinn, Angebotsberechnungen, Terminplanwarnungen und Kundenanalyse.
 
 ### Projekt-Schlüssel-Architektur
 
@@ -949,14 +908,14 @@ Approved_Jobs
 
 Das schafft eine einzige projektbezogene Beziehung zwischen:
 
-* dem freigegebenen Vertrag;
-* geplanter Arbeit;
-* tatsächlicher Arbeit;
-* tatsächlichen Materialien;
-* tatsächlichen Kosten;
-* Projektrentabilität.
+- dem freigegebenen Vertrag;
+- geplanter Arbeit;
+- tatsächlicher Arbeit;
+- tatsächlichen Materialien;
+- tatsächlichen Kosten;
+- Projektrentabilität.
 
-Die Architektur identifiziert explizit die einheitliche `Job_ID` als Kernmechanismus zur Beseitigung von Dateninseln zwischen Projektausführung und Finanzanalyse. 
+Die Architektur identifiziert explizit die einheitliche `Job_ID` als Kernmechanismus zur Beseitigung von Dateninseln zwischen Projektausführung und Finanzanalyse.
 
 ### Projektkosten-Abstimmung
 
@@ -986,13 +945,13 @@ Actual Margin
 
 Das erlaubt dem Management zu identifizieren, ob sich die Wirtschaftlichkeit eines Projekts verschlechtert hat, weil tatsächlicher Ressourcenverbrauch von der ursprünglichen Kalkulation abwich.
 
-`Job_Cost_Engine` agiert damit als Abstimmungsschicht zwischen kommerzieller Planung und betrieblicher Ausführung. 
+`Job_Cost_Engine` agiert damit als Abstimmungsschicht zwischen kommerzieller Planung und betrieblicher Ausführung.
 
 ### Dashboard-Abhängigkeitsmodell
 
 `Profit_Dashboard` ist keine unabhängige Berichtstabelle.
 
-Es sitzt nachgelagert der Berechnungsmaschine:
+Es ist der Berechnungsmaschine nachgelagert:
 
 ```text
 Settings
@@ -1019,12 +978,12 @@ Das Dashboard fasst Ausgaben zusammen, die von den zugrundeliegenden Projektdate
 
 Die Implementierung definiert Dashboard-Kennzahlen einschließlich:
 
-* Gesamtprojekte;
-* steuer-exklusive Erlöse;
-* tatsächliche Gesamtkosten;
-* Rohertrag;
-* Gesamtmarge;
-* Anzahl schwerer Kostenüberschreitungsprojekte. 
+- Gesamtprojekte;
+- steuer-exklusive Erlöse;
+- tatsächliche Gesamtkosten;
+- Rohertrag;
+- Gesamtmarge;
+- Anzahl schwerer Kostenüberschreitungsprojekte.
 
 ---
 
@@ -1036,13 +995,13 @@ Der empfohlene Betriebsrhythmus folgt derselben Struktur wie die Arbeitsmappen-A
 
 Überprüfen:
 
-* `Settings`;
-* Stammdaten-Vollständigkeit;
-* aktive Leads;
-* aktuellen Projektstatus;
-* offene Terminplan-Ausnahmen.
+- `Settings`;
+- Stammdaten-Vollständigkeit;
+- aktive Leads;
+- aktuellen Projektstatus;
+- offene Terminplan-Ausnahmen.
 
-Der Zweck ist, sicherzustellen, dass Berechnungsumgebung und betriebliche Eingaben aktuell sind, bevor neue Datensätze eingegeben werden. 
+Der Zweck ist, sicherzustellen, dass Berechnungsumgebung und betriebliche Eingaben aktuell sind, bevor neue Datensätze eingegeben werden.
 
 ### Während des Betriebs
 
@@ -1092,13 +1051,13 @@ Das verwandelt die Arbeitsmappe von einer statischen Berichtsdatei in ein leicht
 
 ## Empfohlener Überprüfungsrhythmus
 
-| Häufigkeit       | Primäre Überprüfung                          | Empfohlener Fokus                                                        |
-| --------------- | --------------------------------------- | ------------------------------------------------------------------------ |
-| **Täglich**       | `Schedule` + Ausführungsprotokolle             | Überfällige Aufgaben, fehlende Arbeits-/Materialeingaben                            |
-| **Wöchentlich**      | `Lead_Tracker` + `Profit_Dashboard`     | Pipeline, aktive Projekte, entstehende Kostenüberschreitungen                        |
-| **Pro Projekt** | `Job_Cost_Engine`                       | Geschätzte vs. tatsächliche Kosten und Marge                                     |
-| **Monatlich**     | `Profit_Dashboard` + `Customer_History` | Gesamtrentabilität und Kundenbeitrag                          |
-| **Vierteljährlich**   | `Settings` + Stammdaten                | Arbeitslohnsätze, Materialkosten, Gemeinkosten, Zielmarge, Warnschwellen |
+| Häufigkeit | Primäre Überprüfung | Empfohlener Fokus |
+|---|---|---|
+| **Täglich** | `Schedule` + Ausführungsprotokolle | Überfällige Aufgaben, fehlende Arbeits-/Materialeingaben |
+| **Wöchentlich** | `Lead_Tracker` + `Profit_Dashboard` | Pipeline, aktive Projekte, entstehende Kostenüberschreitungen |
+| **Pro Projekt** | `Job_Cost_Engine` | Geschätzte vs. tatsächliche Kosten und Marge |
+| **Monatlich** | `Profit_Dashboard` + `Customer_History` | Gesamtrentabilität und Kundenbeitrag |
+| **Vierteljährlich** | `Settings` + Stammdaten | Arbeitslohnsätze, Materialkosten, Gemeinkosten, Zielmarge, Warnschwellen |
 
 Der Zweck dieses Rhythmus ist, betriebliche Datenpflege und Managementüberprüfung getrennt zu halten: Feld- und Projektteams pflegen die Quelldatensätze, während das Management die resultierenden Berechnungen zur Entscheidungsfindung nutzt.
 
@@ -1154,20 +1113,20 @@ Berechnete Spalten sollten formelgesteuert bleiben.
 
 Benutzer sollten Quelldatensätze aktualisieren wie:
 
-* Lead-Informationen;
-* Angebotseingaben;
-* Projektstatus;
-* Arbeitsstunden;
-* Materialmengen;
-* Termine.
+- Lead-Informationen;
+- Angebotseingaben;
+- Projektstatus;
+- Arbeitsstunden;
+- Materialmengen;
+- Termindaten.
 
-Sie sollten Berechnetes nicht manuell ersetzen:
+Sie sollten die folgenden berechneten Werte nicht manuell ersetzen:
 
-* Gesamtkosten;
-* Margen;
-* Kostenabweichung;
-* Projektrentabilität;
-* kundenbezogene Zusammenfassungen.
+- Gesamtkosten;
+- Margen;
+- Kostenabweichung;
+- Projektrentabilität;
+- kundenbezogene Zusammenfassungen.
 
 ---
 
@@ -1177,12 +1136,12 @@ Diese Arbeitsmappe ist absichtlich leichtgewichtig.
 
 Sie sollte **nicht** als Ersatz behandelt werden für:
 
-* Buchhaltungssoftware;
-* Lohnabrechnung;
-* Enterprise-Ressourcenplanung;
-* Beschaffungssysteme;
-* Field-Service-Management-Plattformen;
-* Multi-User-Transaktionsdatenbanken.
+- Buchhaltungssoftware;
+- Lohnabrechnung;
+- Enterprise-Ressourcenplanung;
+- Beschaffungssysteme;
+- Field-Service-Management-Plattformen;
+- Multi-User-Transaktionsdatenbanken.
 
 Sie ist für betriebliche Steuerung und Entscheidungsunterstützung konzipiert, wo Excel eine angemessene Arbeitsumgebung bleibt.
 
@@ -1190,13 +1149,13 @@ Sie ist für betriebliche Steuerung und Entscheidungsunterstützung konzipiert, 
 
 Die Implementierung beruht auf modernen Excel-Funktionen und ist für **Microsoft 365 / Excel 2021+** bestimmt.
 
-Ältere Excel-Versionen dürfen möglicherweise nicht alle von der Arbeitsmappe verwendeten Dynamic-Array-Funktionen unterstützen.
+Ältere Excel-Versionen unterstützen möglicherweise nicht alle von der Arbeitsmappe verwendeten Dynamic-Array-Funktionen.
 
 ### Berechnungsmodus
 
 Excel sollte im Modus **Automatische Berechnung** bleiben.
 
-Wenn Berechnung manuell deaktiviert wird, dürfen sich Änderungen an `Settings` oder Quelldatensätzen nicht sofort durch die Berechnungskette propagieren. 
+Wenn Berechnung manuell deaktiviert wird, dürfen sich Änderungen an `Settings` oder Quelldatensätzen möglicherweise nicht sofort durch die Berechnungskette propagieren.
 
 ### Dynamic-Array-Spill-Platz
 
@@ -1204,13 +1163,15 @@ Dynamische Formeln erfordern freie Spill-Bereiche.
 
 Wenn ein anderer Wert einen erforderlichen Spill-Bereich belegt, kann Excel `#SPILL!` zurückgeben.
 
-Die angemessene Reaktion ist, den Spill-Bereich zu inspizieren, anstatt Formeln manuell in zusätzliche Zellen zu kopieren. 
+Die angemessene Reaktion ist, den Spill-Bereich zu inspizieren, anstatt Formeln manuell in zusätzliche Zellen zu kopieren.
 
 ### Stammdaten-Abhängigkeit
 
 `Material_Code` und `Labor_Code` hängen von entsprechenden Datensätzen in `Material_DB` und `Labor_Rates` ab.
 
-Wenn ein Code fehlt oder fehlerhaft ist, dürfen nachgelagerte Lookup- und Kostenberechnungen möglicherweise nicht den beabsichtigten Wert zurückgeben. 
+Wenn ein Code fehlt oder fehlerhaft ist, dürfen nachgelagerte Lookup- und Kostenberechnungen möglicherweise nicht den beabsichtigten Wert zurückgeben.
+
+</details>
 
 ---
 
@@ -1218,11 +1179,34 @@ Wenn ein Code fehlt oder fehlerhaft ist, dürfen nachgelagerte Lookup- und Koste
 
 Eine Sammlung leichtgewichtiger Excel-Entscheidungsunterstützungswerkzeuge für Betriebsplanung, Kostenrechnung, Rentabilität und Geschäftsanalyse.
 
-* **Excel-Werkzeugsammlung für Jahres-Gehaltsabrechnung & jährliche Arbeitskräfte-Kapazitätsplanung**
-* **Excel-Werkzeugsammlung für industrielle Energiekosten & TCO-Entscheidungsunterstützung**
-* **E-Commerce-Gewinnmaschine & Werkzeugsammlung für Finanzabstimmung**
-* **Werkzeugsammlung für Lebensmittelherstellungskosten & Unit-Economics**
-* **Werkzeugsammlung für Mietobjekt-Betrieb & Leerstandsintelligenz**
+* **[rolling-cashflow-forecast](https://github.com/HyVoid/rolling-cashflow-forecast)** — Warum ist das Bargeld immer knapp? — Prognostizieren Sie künftige Liquidität unter veränderlichen betrieblichen und finanziellen Annahmen.
+* **[Multi-Currency-Trade-Financial-Analyzer](https://github.com/HyVoid/Multi-Currency-Trade-Financial-Analyzer)** — Welche Handelsströme sind nach Währungseffekten tatsächlich profitabel? — Messen Sie die Multi-Währungs-Handelsrentabilität über grenzüberschreitende Geschäfte hinweg.
+* **[RTL_Loan_Sizer_Pricer](https://github.com/HyVoid/RTL_Loan_Sizer_Pricer)** — Welche Finanzierungsstruktur ist unter verschiedenen Kreditnehmer- und Sicherheizenzenarien tragfähig? — Vergleichen Sie Kreditvergabeszenarien mit risikoadjustierten Finanzierungsannahmen.
+* **[Personal-Business-Dual-Track-Budget-Manager](https://github.com/HyVoid/Personal-Business-Dual-Track-Budget-Manager)** — Wo werden private und geschäftliche Mittel vermischt oder falsch zugewiesen? — Trennen Sie private und geschäftliche Geldflüsse in unabhängig verfolgte Budgetstränge.
+* **[Multifamily-Value-Add-Acquisition-Model](https://github.com/HyVoid/Multifamily-Value-Add-Acquisition-Model)** — Schafft diese Immobilienakquisition nach Sanierungs- und Betriebsannahmen noch Eigenkapitalwert? — Bewerten Sie Multifamily-Akquisitionsrenditen unter Sanierungsfinanzierungs- und Betriebsszenarien.
+* **[Real-Estate-Valuation-all-in-one-calculator](https://github.com/HyVoid/Real-Estate-Valuation-all-in-one-calculator)** — Wie viel ist eine Immobilie unter verschiedenen Bewertungsmethoden wert? — Berechnen Sie Immobilienwerte über mehrere Bewertungsmethoden hinweg mit Steuer- und Investitionsausgabenmodellierung.
+* **[multi-entity-expense-allocation](https://github.com/HyVoid/multi-entity-expense-allocation)** — Werden Gemeinkosten fair auf die Gesellschaften verteilt, oder werden manche Vermögenswerte überlastet, während andere ihrer tatsächlichen Kostenexposition entgehen? — Verteilen Sie Lieferantenrechnungen auf mehrere Rechtsträger und operative Vermögenswerte mittels konfigurierbarer Verteilungsmethoden.
+* **[investment-pool-nav-excel-template](https://github.com/HyVoid/investment-pool-nav-excel-template)** — Was wird jedem Teilnehmer tatsächlich geschuldet, basierend auf seinem Einstiegszeitpunkt und dem aktuellen Poolwert? — Verfolgen Sie Investmentpool-Anteile kontinuierlich mittels NAV-basierter Einheitenbuchhaltung.
+* **[shopify-cash-flow-forecast-excel-toolkit](https://github.com/HyVoid/shopify-cash-flow-forecast-excel-toolkit)** — Welche operativen Verpflichtungen werden in den nächsten zwölf Wochen ein Cash-Problem erzeugen? — Verbinden Sie Shopify-Verkäufe, Banktransaktionen, Werbeausgaben und Lagerbeschaffung in einen einheitlichen Cashflow-Entscheidungsrahmen.
+* **[Revenue-Management-Decision-Engine](https://github.com/HyVoid/Revenue-Management-Decision-Engine)** — Hat sich genug Bedeutungsvolles geändert, um eine Preisanpassung zu rechtfertigen? — Steuern Sie Preisempfehlungen durch konfigurierbare Leitplanken, die unnötige Umsatzvolatilität verhindern.
+* **[amazon-wbr-sqp-analytics-template](https://github.com/HyVoid/amazon-wbr-sqp-analytics-template)** — Was hat sich im Betrachtungszeitraum tatsächlich geändert, und welche Produkte oder Keywords haben den Wandel angetrieben? — Verwandeln Sie Amazon Seller Central SQP- und Sellerboard-Exporte in standardisierte Management-Business-Reviews.
+* **[food-manufacturing-cost-calculator-excel](https://github.com/HyVoid/food-manufacturing-cost-calculator-excel)** — Welche Produkte sind nach Allokation aller Herstellungskosten tatsächlich profitabel und welche zerstören die Marge? — Allozieren Sie Fabrikarbeit, Versorgung, Gemeinkosten und Materialkosten auf jede SKU für echte Stück-Kostenwirtschaftlichkeit.
+* **[ecommerce-profit-calculator-excel](https://github.com/HyVoid/ecommerce-profit-calculator-excel)** — Welche Bestellungen sind nach allen versteckten Kosten tatsächlich profitabel, und wo verliert das Unternehmen Geld über Kanäle und Währungen hinweg? — Rekonstruieren Sie echte Rentabilität auf Bestell-Ebene, indem Sie Vertriebsauszahlungen, Versandkosten, Zahlungsgebühren und Marketplace-Provisionen über Multi-Kanal-E-Commerce-Betriebe hinweg abgleichen.
+* **[Flora-Pastry-Coffee-Shop-Operating-Control-System](https://github.com/HyVoid/Flora-Pastry-Coffee-Shop-Operating-Control-System)** — Ist das Geschäft nach allen Zutaten-, Arbeits- und Betriebskosten wirklich profitabel? — Verbinden Sie Rezeptkalkulation, Verkäufe, Lagerverbrauch und Betriebsausgaben in einen einheitlichen Rentabilitäts- und Cashflow-Rahmen.
+* **[freight-forwarder-job-costing-excel](https://github.com/HyVoid/freight-forwarder-job-costing-excel)** — Welche Frachtbuchungen sind nach allen Kosten, Gebühren und Währungsumrechnung tatsächlich profitabel? — Messen Sie die Rentabilität je Frachtbuchung, indem Sie Erlöse, COGS, Bankgebühren und Containerkosten über gemischt-währige Transaktionen hinweg abgleichen.
+* **[cross-entity-logistics-console](https://github.com/HyVoid/cross-entity-logistics-console)** — Welche Container und Kunden sind über Zoll- und Flottenoperationen hinweg tatsächlich profitabel? — Konsolidieren Sie Zollabfertigungs- und Flottenausführungsdaten zu einer einzigen Rentabilitätsansicht auf Container-Ebene.
+* **[family-loan-tracker-excel](https://github.com/HyVoid/family-loan-tracker-excel)** — Was ist nach Jahren von Überweisungen und aufgelaufenen Zinsen heute tatsächlich geschuldet? — Gleichen Sie langfristige Mittelüberweisungen und Zinsansammlungen zu einem aktuellen Restsaldo ab.
+* **[3-statement-financial-model-excel](https://github.com/HyVoid/3-statement-financial-model-excel)** — Wie werden unsere Finanzberichte unter verschiedenen Betriebs- und Finanzierungsszenarien aussehen? — Prognostizieren Sie integrierte Finanzberichte, indem Sie Erlöse, Aufwendungen, Working Capital und Schulden in ein einheitliches Modell verknüpfen.
+* **[assisted-living-cost-allocation-excel](https://github.com/HyVoid/assisted-living-cost-allocation-excel)** — Wie viel der gemeldeten Marge eines Gebäudes wird tatsächlich von diesem Gebäude erzeugt und wie viel durch die Art, wie Konzernkosten zugeteilt wurden? — Allozieren Sie geteilte Aufwendungen über Betriebseinheiten hinweg, während Quelltransaktionen erhalten bleiben und Ergebnisse auf Einheiten-Ebene mit den Konzensummen abgeglichen werden.
+* **[real-estate-development-feasibility-excel](https://github.com/HyVoid/real-estate-development-feasibility-excel)** — Bei welchem maximalen Grunderwerbspreis wird dieses Entwicklungsprojekt zu einer bankfähigen Investition? — Bewerten Sie Wohnbau-Entwicklungschancen, indem Sie Bodenvergleichswerte sichten, Baukosten schätzen und Profit-on-Cost-Schwellen berechnen.
+* **[uk-residential-costing-software](https://github.com/HyVoid/uk-residential-costing-software)** — Erreicht dieses Bauprojekt seine Zielmarge tatsächlich, wenn Baustellenlogistik, Verschwundfaktoren und Gewerkesatzänderungen berücksichtigt werden? — Trennen Sie physische Bauquantitäten von volatilen Gewerkesätzen und Baustellen-Gemeinkosten, um kommerzielle Aufschläge über Ausschreibungsbudgets und Kundenangebote hinweg zu staffeln.
+* **[b2b-pricing-landed-cost-excel-model](https://github.com/HyVoid/b2b-pricing-landed-cost-excel-model)** — Welche Großhandelspreise und Kundensegmente erhalten die Marge tatsächlich, sobald Fracht, Zölle, Zahlungsbedingungen und FX vollständig kostenverrechnet sind? — Berechnen Sie Landed Costs, Cost-to-Serve und Pocket-Margin-Preiswasserfälle auf SKU-Ebene, um grenzüberschreitende Großhandelsrentabilität zu simulieren.
+* **[custom-label-pricing-calculator](https://github.com/HyVoid/custom-label-pricing-calculator)** — Was sollten wir für einen Etiketten-Sonderauftrag je Mengenstufe berechnen, um wettbewerbsfähig und profitabel zu bleiben? — Berechnen Sie parametrische Etikettenpreise, indem Sie Substrat-Kosten je Quadratzoll, Rüstkosten und Mengenstufen-Rabattstaffeln gegen Wettbewerber-Benchmarks modellieren.
+* **[landed-cost-calculator-retail-deduction-excel](https://github.com/HyVoid/landed-cost-calculator-retail-deduction-excel)** — Wie hoch ist die echte Netto-Marge je SKU, sobald tatsächliche Landed Costs und Händlerabzüge verrechnet sind? — Gleichen Sie PO-geschätzte Landed Costs gegen tatsächliche Fracht-, Zoll-, FX- und Drayage-Kosten ab und prüfen Sie Händler-Remittance-Abzüge, um Netto-Margen auf SKU-Ebene offenzulegen.
+* **[saas-finance-mrr-burn-rate-excel](https://github.com/HyVoid/saas-finance-mrr-burn-rate-excel)** — Können wir die Einstellungs-, Marketing- und Lieferantenverpflichtungen dieser Woche eingehen, ohne vor dem Buchabschluss das Bargeld auszugeben? — Verfolgen Sie wöchentliches Cash-Burn-Tempo, MRR/ARR-Wasserfall-Abweichung, Retention-Kennzahlen und Lohnkosten gegen das Budget vor dem Monatsabschluss.
+* **[startup-financial-model-excel](https://github.com/HyVoid/startup-financial-model-excel)** — Geht unserem Wachstumsplan das Bargeld aus, bevor die Kohorten-Monetarisierung aufholt? — Prognostizieren Sie mehrjähriges Cash-Burn, Runway, Unit Economics und Fundraising-Verwässerung aus Bottom-up-Kohorten- und Headcount-Annahmen.
+* **[shopify-pnl-reconciliation-excel](https://github.com/HyVoid/shopify-pnl-reconciliation-excel)** — Ist jeder Shopify-Storefront tatsächlich profitabel, sobald echte SKU-Ebenen-Kosten, geteilte Aufwendungen und Bankgebühren abgeglichen sind? — Gleichen Sie Multi-Store-Shopify-Verkaufsexporte gegen SKU-Ebenen-COGS, zugeteilte Multi-Währungs-OPEX und Bankauszüge ab, um eine verlässliche monatliche GuV zu erzeugen.
+* **[travel-agency-accounting-excel-template](https://github.com/HyVoid/travel-agency-accounting-excel-template)** — Welche Tourbuchungen erzeugen nach Lieferantenkosten und B2B-Einziehungen tatsächlich Nettogewinn und positiven Cashflow? — Berechnen Sie Tourauftragskosten je Buchung, Bruttomargen, Forderungs-/Verbindlichkeitsabwicklung und operativen Cashflow über mehrere Währungen hinweg.
 
 ---
 
